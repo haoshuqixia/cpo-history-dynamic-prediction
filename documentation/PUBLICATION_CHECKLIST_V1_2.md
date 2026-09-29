@@ -19,13 +19,17 @@
 
 Final automated payload preflight and regenerated manifest/checksums are recorded
 in RELEASE_STATUS.json and CPO_CODE_RELEASE_QA_V1_2.md. The final seal covers
-the code-only local payload, not an assertion that it is already online.
+the code-only payload. Current publication evidence is separately recorded in
+PUBLIC_METADATA_QA_V1_0.md; the original V1.2 QA remains a historical snapshot.
 
 ## Actions after local sealing
 
-- [ ] Upload/create the intended public GitHub repository; no upload performed here.
+- [x] Author uploaded the public GitHub repository; anonymous access and 74/74 original payload file identities verified on 2026-09-29.
+- [x] Prepare actual repository URL in README/CITATION and synchronized publication-state metadata; no DOI invented.
+- [ ] Upload this post-upload metadata update and verify the new remote file hashes.
 - [ ] Publish the first software tag/release v1.0.0 and verify public access.
-- [ ] Add real URL and optional DOI to CITATION/manuscript only after they exist.
+- [ ] Add the verified repository URL to manuscript Code availability; this task does not edit Word.
+- [ ] Optional Zenodo archive and DOI, only after actual assignment.
 - [ ] Review Supplement title/source-data wording and embedded-preview editorial notes.
 
 No new model, subgroup, figure design or sensitivity analysis is required by

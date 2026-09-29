@@ -1,7 +1,8 @@
-"""Read-only preflight for the MIT-authorized sealed local release.
+"""Read-only local preflight for the MIT-authorized public code metadata.
 
 Checks are scoped automated preflight, not independent legal clearance.
 Does not read patient files, write data, run models, or publish anything.
+Checks local metadata consistency, not live GitHub access or remote content.
 """
 from pathlib import Path
 import ast
@@ -58,7 +59,22 @@ def main():
     assert recorded == expected, "Checksum inventory must cover all non-checksum payload files"
     status = json.loads((ROOT / "documentation/RELEASE_STATUS.json").read_text())
     assert status["licence"] == "MIT" and status["author_approved"] is True
-    assert status["publicly_published"] is False
+    assert status["publicly_published"] is True
+    repository_url = "https://github.com/haoshuqixia/cpo-history-dynamic-prediction"
+    assert status["github_url"] == repository_url and status["public_access_verified"] is True
+    assert status["code_release"] == "SEALED_PUBLIC_CODE_RELEASE_PENDING_TAG"
+    assert status["formal_release_published"] is False and status["release_tag"] is None
+    assert status["zenodo_doi"] is None
+    assert re.fullmatch(r"[0-9a-f]{40}", status["public_access_verified_commit"])
+    provenance = json.loads((ROOT / "documentation/environment_provenance.json").read_text())
+    assert provenance["public_repository"] == repository_url
+    assert provenance["licence"] == status["licence"]
+    assert provenance["status"] == status["code_release"]
+    citation = (ROOT / "CITATION.cff").read_text()
+    assert f'repository-code: "{repository_url}"' in citation
+    assert "license: MIT" in citation and 'version: "1.0.0"' in citation
+    readme = (ROOT / "README.md").read_text()
+    assert repository_url in readme and "NOT YET UPLOADED" not in readme
     assert status["core_statistical_modules_unchanged"] == len(analysis["files"])
     model = ROOT / "06_model_development/CV_PAC_CPO_STAGE1B_ABC_TEMPORAL_20260908/code/run_stage1b.py"
     tree = ast.parse(model.read_text())
@@ -73,7 +89,8 @@ def main():
     print(f"PASS: {len(files)} reviewed text/code files; {len(analysis['files'])} unchanged statistical modules")
     print("PASS: syntax, recorded checksums and automated path/credential/data-file preflight")
     print("PASS: author-confirmed MIT licence and complete payload checksum inventory")
-    print(f"{status['code_release']}; NOT UPLOADED / NO PUBLIC URL ASSIGNED")
+    print("PASS: consistent public URL, MIT and pending-tag metadata; no DOI/release claim")
+    print(f"{status['code_release']}; LOCAL PREFLIGHT ONLY / LIVE METADATA SYNC NOT CHECKED")
 
 
 if __name__ == "__main__":

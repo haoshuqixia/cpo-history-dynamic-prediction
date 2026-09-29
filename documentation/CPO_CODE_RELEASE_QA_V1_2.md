@@ -1,5 +1,9 @@
 # CPO code release V1.2 — software v1.0.0
 
+Historical local-seal snapshot, before the author's GitHub upload. The verdict
+and evidence below are preserved, not a statement of current public availability.
+Current publication metadata: RELEASE_STATUS.json and PUBLIC_METADATA_QA_V1_0.md.
+
 ## Verdict
 
 ```ini

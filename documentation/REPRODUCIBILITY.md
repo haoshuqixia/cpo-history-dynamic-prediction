@@ -84,8 +84,12 @@ changing statistics, images, styles or the author's original Word file.
 The author confirmed public rights and the MIT software licence with copyright
 held by the six-person author team. After documentation/licence updates, fresh
 path/credential/data-file checks and complete checksums were regenerated.
-The code-only payload is locally SEALED; it has not been uploaded or assigned
-a real public URL/DOI. See RELEASE_STATUS.json and CPO_CODE_RELEASE_QA_V1_2.md.
+The code-only payload is SEALED and the author uploaded it to
+https://github.com/haoshuqixia/cpo-history-dynamic-prediction.
+Anonymous access and all 74 original file identities were verified on 2026-09-29.
+The formal v1.0.0 tag/release is pending and no Zenodo DOI is assigned.
+See RELEASE_STATUS.json and PUBLIC_METADATA_QA_V1_0.md for current status;
+CPO_CODE_RELEASE_QA_V1_2.md preserves the historical local-seal evidence.
 
 The statistical environment does not provide optional legacy editable-Word
 generation; summary CSVs plus PNG/PDF/SVG are the verified reproduction endpoint.
@@ -102,6 +106,8 @@ models, trajectories, bootstrap/prediction files or logs to GitHub.
 
 ## Publication wording
 
-Do not state “publicly available at” until the intended URL exists and has been
-verified without author-only access. Do not invent a DOI. A future software
-licence does not grant redistribution permission for restricted datasets.
+Anonymous access to the actual repository URL has been verified; manuscript
+Code availability may use that URL. Do not claim a formal v1.0.0 release or DOI
+until it exists and is checked. The software licence does not grant permission
+to redistribute restricted datasets. Local preflight checks are not a live
+remote verification: check the metadata-upload commit before tagging.

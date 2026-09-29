@@ -28,10 +28,10 @@
   "authors": ["Zhihao Lin", "Tangjiang Wan", "Wenyue Lv", "Shitong Shen", "Luyang Wu", "Yafei Li"],
   "corresponding_author": "Yafei Li",
   "equal_contribution": null,
-  "public_repository": null,
+  "public_repository": "https://github.com/haoshuqixia/cpo-history-dynamic-prediction",
   "relocated_rerun_date": "2026-09-29",
   "analysis_stages_passed": 27,
   "numerical_reference_files_passed": 85,
   "table1_numeric_cells_passed": 72,
-  "status": "SEALED_LOCAL_RELEASE"
+  "status": "SEALED_PUBLIC_CODE_RELEASE_PENDING_TAG"
 }

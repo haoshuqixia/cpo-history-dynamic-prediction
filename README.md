@@ -1,10 +1,19 @@
 # Recent CPO history and short-term low-CPO prediction
 
-**Software v1.0.0 — LOCAL SEALED RELEASE — MIT — NOT YET UPLOADED.**
+**Software version 1.0.0 — PUBLIC CODE REPOSITORY — MIT — TAG/RELEASE PENDING.**
+
+Repository: https://github.com/haoshuqixia/cpo-history-dynamic-prediction
+
+Anonymous public access was verified on 2026-09-29. The initial uploaded
+commit contains all 74 files of the sealed local payload without byte changes.
+The post-upload metadata update is prepared separately; its remote content
+must be checked after upload. No v1.0.0 tag, GitHub Release or Zenodo DOI has
+been created by this update.
 
 Release-gate revision: V1.2 (2026-09-29). V1.0/V1.1 were local draft revisions,
 not public software tags. See `documentation/RELEASE_STATUS.json` and
-`documentation/CPO_CODE_RELEASE_QA_V1_2.md` for the final evidence and scope.
+`documentation/PUBLIC_METADATA_QA_V1_0.md` for current publication scope.
+`documentation/CPO_CODE_RELEASE_QA_V1_2.md` is the historical local-seal evidence.
 
 Code supporting the manuscript prepared for European Heart Journal – Acute
 Cardiovascular Care:
@@ -145,7 +154,14 @@ in both checksum lists. Prior draft QA is marked historical and superseded.
 
 ## Code availability
 
-Sealed locally and ready for a code-only upload, but **not yet publicly available**.
-No GitHub repository/URL, Git tag or Zenodo DOI has been created or verified by
-this task. Use v1.0.0 for the first public software release. Add the real public
-URL/DOI to the manuscript only after upload and independent access verification.
+Code for cohort construction, CPO derivation, rolling landmark generation,
+predictor and outcome construction, observation weighting, model development,
+temporal and external validation, sensitivity analyses, and figure generation
+is publicly available at https://github.com/haoshuqixia/cpo-history-dynamic-prediction.
+The repository contains analysis code, variable definitions and reproducibility
+instructions. Raw or patient-level MIMIC-IV and eICU data are not redistributed
+in accordance with the relevant PhysioNet data-use agreements.
+
+The repository is public, but the formal v1.0.0 software tag/release remains
+pending. No Zenodo DOI is assigned. Local preflight does not verify whether
+the latest metadata has reached GitHub; verify the uploaded commit before tagging.

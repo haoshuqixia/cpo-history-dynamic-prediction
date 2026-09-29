@@ -1,4 +1,4 @@
-# Reporting crosswalk — sealed local release, gate V1.2
+# Reporting crosswalk — sealed code, gate V1.2
 
 The statistical runner executes original relative-layout modules in private
 work. The numbered repository folders are an index, not new analytical stages.
@@ -33,7 +33,7 @@ evidence. No alternative patient-selection analysis was introduced here.
 
 Reference result files, private figure source-data files (including selected
 patients), patient-level intermediates and trained models are not bundled.
-The sealed local package contains code, reviewed metadata and aggregate QA only.
+The sealed code package contains code, reviewed metadata and aggregate QA only.
 
 The final main-manuscript basis is Manuscript_numbers_corrected.docx, SHA-256
 d62f3b82c3555dd0628f0458d1d4b36cd94ccfdffea9d81cdbd97b889b2292cb.
@@ -41,4 +41,6 @@ Its six prose-only metric corrections do not alter tables, image content,
 styles, formulas or other document parts. Main Figures 1–4 have exact RGB
 pixel identity to the fresh locked outputs; the smaller embedded GA was
 visually checked for correct R1 labels. The CSV crosswalk explicitly separates
-numerical PASS from pending repository identifiers and editorial notes.
+numerical PASS from manuscript availability-text and editorial actions.
+The public repository URL is verified and recorded in RELEASE_STATUS.json;
+the Word availability paragraph has not been changed by this metadata update.
