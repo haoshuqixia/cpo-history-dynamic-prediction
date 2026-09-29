@@ -1,0 +1,33 @@
+# Only code and reviewed documentation belong in this repository.
+private_work/
+data/
+work/
+results/
+audit/
+models/
+source_data/
+external_validation/
+*.joblib
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.gz
+*.zip
+*.xlsx
+*.docx
+*.log
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+.mplconfig/
+.venv*/
+locked_figures_*/
+figure_output*/
+*.png
+*.pdf
+*.svg
+*.tiff
+# Gitignore is not a privacy audit; never stage files with `git add -f`.

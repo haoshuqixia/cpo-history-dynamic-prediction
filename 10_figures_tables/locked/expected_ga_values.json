@@ -1,0 +1,22 @@
+{
+  "temporal_landmarks": 3416,
+  "temporal_patients": 265,
+  "temporal_auroc": {
+    "A": 0.821614083988327,
+    "B": 0.8657818178880258
+  },
+  "temporal_delta_brier": -0.0017443578634596,
+  "external_landmarks": 7753,
+  "external_patients": 840,
+  "external_hospitals": 27,
+  "external_brier_A": 0.0488153180538837,
+  "external_brier_B": 0.0474669305839838,
+  "external_delta_brier": -0.0013483874698999,
+  "external_delta_brier_CI": [
+    -0.0024607061830062,
+    -0.0002513900225208
+  ],
+  "plots": "Frozen weighted ROC; absolute external Brier; paired absolute Brier CI",
+  "models_refitted": false,
+  "V1_or_manuscript_modified": false
+}

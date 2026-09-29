@@ -1,0 +1,142 @@
+[
+  {
+    "source": "01_cohort_construction/STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/common.py",
+    "target": "STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/common.py"
+  },
+  {
+    "source": "01_cohort_construction/STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/cohort.py",
+    "target": "STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/cohort.py"
+  },
+  {
+    "source": "01_cohort_construction/STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/extract.py",
+    "target": "STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/extract.py"
+  },
+  {
+    "source": "01_cohort_construction/STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/aggregate.py",
+    "target": "STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/aggregate.py"
+  },
+  {
+    "source": "01_cohort_construction/STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/pairing.py",
+    "target": "STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/pairing.py"
+  },
+  {
+    "source": "03_landmark_generation/CV_PAC_CPO_LANDMARK_AUDIT_20260908/code/run_landmark_audit.py",
+    "target": "CV_PAC_CPO_LANDMARK_AUDIT_20260908/code/run_landmark_audit.py"
+  },
+  {
+    "source": "05_outcome_and_ipow/CV_PAC_CPO_STAGE0_MECHANISM_20260908/code/run_stage0_mechanism_audit.py",
+    "target": "CV_PAC_CPO_STAGE0_MECHANISM_20260908/code/run_stage0_mechanism_audit.py"
+  },
+  {
+    "source": "05_outcome_and_ipow/CV_PAC_CPO_STAGE0_MECHANISM_20260908/code/build_landmark_dataset_v1.py",
+    "target": "CV_PAC_CPO_STAGE0_MECHANISM_20260908/code/build_landmark_dataset_v1.py"
+  },
+  {
+    "source": "05_outcome_and_ipow/CV_PAC_CPO_STAGE0_MECHANISM_20260908/code/summarize_stage0.py",
+    "target": "CV_PAC_CPO_STAGE0_MECHANISM_20260908/code/summarize_stage0.py"
+  },
+  {
+    "source": "04_predictor_construction/CV_PAC_CPO_STAGE1A_FEATURE_AND_CENSORING_20260908/code/run_stage1a.py",
+    "target": "CV_PAC_CPO_STAGE1A_FEATURE_AND_CENSORING_20260908/code/run_stage1a.py"
+  },
+  {
+    "source": "06_model_development/CV_PAC_CPO_STAGE1B_ABC_TEMPORAL_20260908/code/run_stage1b.py",
+    "target": "CV_PAC_CPO_STAGE1B_ABC_TEMPORAL_20260908/code/run_stage1b.py"
+  },
+  {
+    "source": "06_model_development/CV_PAC_CPO_PAPER_PACKAGE_20260908/code/export_locked_models.py",
+    "target": "CV_PAC_CPO_PAPER_PACKAGE_20260908/code/export_locked_models.py"
+  },
+  {
+    "source": "07_temporal_validation/CV_PAC_CPO_STAGE1C_EARLY_WARNING_AUDIT_20260908/code/run_stage1c.py",
+    "target": "CV_PAC_CPO_STAGE1C_EARLY_WARNING_AUDIT_20260908/code/run_stage1c.py"
+  },
+  {
+    "source": "07_temporal_validation/CV_PAC_CPO_STAGE1D_ALERT_UTILITY_20260908/code/run_stage1d.py",
+    "target": "CV_PAC_CPO_STAGE1D_ALERT_UTILITY_20260908/code/run_stage1d.py"
+  },
+  {
+    "source": "09_sensitivity_analyses/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_information_clock_audit.py",
+    "target": "CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_information_clock_audit.py"
+  },
+  {
+    "source": "09_sensitivity_analyses/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_storetime_ab_sensitivity.py",
+    "target": "CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_storetime_ab_sensitivity.py"
+  },
+  {
+    "source": "09_sensitivity_analyses/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_stage_r2_robustness.py",
+    "target": "CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_stage_r2_robustness.py"
+  },
+  {
+    "source": "09_sensitivity_analyses/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_stage_r3_sensitivity_counts.py",
+    "target": "CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_stage_r3_sensitivity_counts.py"
+  },
+  {
+    "source": "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_eminus1.py",
+    "target": "CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_eminus1.py"
+  },
+  {
+    "source": "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e0.py",
+    "target": "CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e0.py"
+  },
+  {
+    "source": "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e1a_medication_audit.py",
+    "target": "CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e1a_medication_audit.py"
+  },
+  {
+    "source": "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e1b.py",
+    "target": "CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e1b.py"
+  },
+  {
+    "source": "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e1b_remediation.py",
+    "target": "CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e1b_remediation.py"
+  },
+  {
+    "source": "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e2.py",
+    "target": "CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e2.py"
+  },
+  {
+    "source": "10_figures_tables/CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_tables.py",
+    "target": "CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_tables.py"
+  },
+  {
+    "source": "10_figures_tables/CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_result_tables.py",
+    "target": "CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_result_tables.py"
+  },
+  {
+    "source": "10_figures_tables/CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_reviewer_defense_tables.py",
+    "target": "CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_reviewer_defense_tables.py"
+  },
+  {
+    "source": "10_figures_tables/CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_predictor_dictionary.py",
+    "target": "CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_predictor_dictionary.py"
+  },
+  {
+    "source": "08_eicu_external_validation/CPO_EICU_EXTERNAL_DISCHARGE_BOUNDARY_R1_V1_0/run_eicu_r1.py",
+    "target": "CPO_EICU_EXTERNAL_DISCHARGE_BOUNDARY_R1_V1_0/run_eicu_r1.py"
+  },
+  {
+    "source": "10_figures_tables/EHJACC_FIGURES/scripts/gen_figure2_cohort_flow.py",
+    "target": "CPO_SUBMISSION_SUPPLEMENT_20260917/EHJACC_FIGURES/scripts/gen_figure2_cohort_flow.py"
+  },
+  {
+    "source": "10_figures_tables/EHJACC_FIGURES/scripts/gen_figure3_incremental_value.py",
+    "target": "CPO_SUBMISSION_SUPPLEMENT_20260917/EHJACC_FIGURES/scripts/gen_figure3_incremental_value.py"
+  },
+  {
+    "source": "10_figures_tables/EHJACC_FIGURES/scripts/gen_figure4_clinical_interpretability.py",
+    "target": "CPO_SUBMISSION_SUPPLEMENT_20260917/EHJACC_FIGURES/scripts/gen_figure4_clinical_interpretability.py"
+  },
+  {
+    "source": "10_figures_tables/EHJACC_FIGURES/scripts/gen_figure5_external_validation.py",
+    "target": "CPO_SUBMISSION_SUPPLEMENT_20260917/EHJACC_FIGURES/scripts/gen_figure5_external_validation.py"
+  },
+  {
+    "source": "10_figures_tables/EHJACC_FIGURES/scripts/generate_ehjacc_figures.py",
+    "target": "CPO_SUBMISSION_SUPPLEMENT_20260917/EHJACC_FIGURES/scripts/generate_ehjacc_figures.py"
+  },
+  {
+    "source": "10_figures_tables/build_submission_supplement_r1.py",
+    "target": "CPO_SUBMISSION_SUPPLEMENT_20260917/build_submission_supplement_r1.py"
+  }
+]

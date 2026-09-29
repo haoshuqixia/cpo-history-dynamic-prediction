@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript when using this code. This sealed local release has not yet been uploaded to a public repository."
+type: software
+title: "Recent cardiac power output history improves six-hour prediction of low-CPO episodes during pulmonary artery catheter monitoring"
+authors:
+  - family-names: "Lin"
+    given-names: "Zhihao"
+  - family-names: "Wan"
+    given-names: "Tangjiang"
+  - family-names: "Lv"
+    given-names: "Wenyue"
+  - family-names: "Shen"
+    given-names: "Shitong"
+  - family-names: "Wu"
+    given-names: "Luyang"
+  - family-names: "Li"
+    given-names: "Yafei"
+version: "1.0.0"
+license: MIT
+# Corresponding author for the manuscript: Yafei Li.
+# Copyright: 2026, the six authors listed above (CPO study author team).
+# Repository URL, DOI and date-released are omitted until publicly assigned.
+# No equal-contribution claim is made.

@@ -1,0 +1,4 @@
+# Verified locked-reporting environment; install with requirements.txt.
+Pillow==12.3.0
+# Optional technical PDF inspection uses pypdf + Poppler (not needed for rendering).
+# Optional Word output is NOT part of this locked image-generation command.

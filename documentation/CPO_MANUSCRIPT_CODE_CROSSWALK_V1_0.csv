@@ -1,0 +1,747 @@
+﻿Manuscript item,Reported value,Fresh code output / expected,Code output source,Match,Check scope,Note
+"Table 1: Patients, n; column 1","1,544","1,544",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Patients, n; column 2",265,265,private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Patients, n; column 3",840,840,private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: ICU stays, n; column 1","1,572","1,572",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: ICU stays, n; column 2",268,268,private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: ICU stays, n; column 3",850,850,private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Hospitals, n; column 1",—,—,private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Hospitals, n; column 2",—,—,private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Hospitals, n; column 3",27,27,private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Outcome-observed landmarks, n; column 1","21,619","21,619",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Outcome-observed landmarks, n; column 2","3,416","3,416",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Outcome-observed landmarks, n; column 3","7,753","7,753",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Event-positive landmarks, n (%); column 1",965 (4.5),965 (4.5),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Event-positive landmarks, n (%); column 2",202 (5.9),202 (5.9),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Event-positive landmarks, n (%); column 3",469 (6.0),469 (6.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Patients with ≥1 event, n (%); column 1",312 (20.2),312 (20.2),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Patients with ≥1 event, n (%); column 2",62 (23.4),62 (23.4),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Patients with ≥1 event, n (%); column 3",157 (18.7),157 (18.7),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Age, years; column 1",64.5 (56.0–72.0),64.5 (56.0–72.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Age, years; column 2",63.0 (54.0–71.0),63.0 (54.0–71.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Age, years; column 3",65.0 (56.0–72.0),65.0 (56.0–72.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Female sex, n (%); column 1",335 (21.7),335 (21.7),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Female sex, n (%); column 2",58 (21.9),58 (21.9),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Female sex, n (%); column 3",188 (22.4),188 (22.4),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Medical ICU, n (%); column 1",6 (0.4),6 (0.4),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Medical ICU, n (%); column 2",0 (0.0),0 (0.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Medical ICU, n (%); column 3",1 (0.1),1 (0.1),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Cardiac ICU, n (%); column 1","1,320 (85.5)","1,320 (85.5)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Cardiac ICU, n (%); column 2",244 (92.1),244 (92.1),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Cardiac ICU, n (%); column 3",684 (81.4),684 (81.4),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Surgical ICU, n (%); column 1",218 (14.1),218 (14.1),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Surgical ICU, n (%); column 2",21 (7.9),21 (7.9),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Surgical ICU, n (%); column 3",4 (0.5),4 (0.5),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Other or mixed ICU, n (%); column 1",0 (0.0),0 (0.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Other or mixed ICU, n (%); column 2",0 (0.0),0 (0.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Other or mixed ICU, n (%); column 3",151 (18.0),151 (18.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: IABP active at first landmark, n (%); column 1",81 (5.2),81 (5.2),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: IABP active at first landmark, n (%); column 2",21 (7.9),21 (7.9),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: IABP active at first landmark, n (%); column 3",45 (5.4),45 (5.4),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any vasopressor active, n (%); column 1",916 (59.3),916 (59.3),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any vasopressor active, n (%); column 2",67 (25.3),67 (25.3),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any vasopressor active, n (%); column 3",255 (30.4),255 (30.4),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any inotrope active, n (%); column 1",581 (37.6),581 (37.6),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any inotrope active, n (%); column 2",46 (17.4),46 (17.4),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any inotrope active, n (%); column 3",168 (20.0),168 (20.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Landmark time from ICU admission, h; column 1",19.0 (12.0–35.0),19.0 (12.0–35.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Landmark time from ICU admission, h; column 2",18.0 (12.0–34.0),18.0 (12.0–34.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Landmark time from ICU admission, h; column 3",15.0 (9.0–30.0),15.0 (9.0–30.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Latest CPO, W; column 1",0.96 (0.81–1.16),0.96 (0.81–1.16),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Latest CPO, W; column 2",0.92 (0.79–1.12),0.92 (0.79–1.12),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Latest CPO, W; column 3",0.97 (0.81–1.16),0.97 (0.81–1.16),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: CPO measurements in preceding 4 h, n; column 1",4.0 (4.0–5.0),4.0 (4.0–5.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: CPO measurements in preceding 4 h, n; column 2",4.0 (4.0–4.0),4.0 (4.0–4.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: CPO measurements in preceding 4 h, n; column 3",4.0 (4.0–4.0),4.0 (4.0–4.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: CPO observation span in preceding 4 h, h; column 1",3.0 (3.0–3.0),3.0 (3.0–3.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: CPO observation span in preceding 4 h, h; column 2",3.0 (3.0–3.0),3.0 (3.0–3.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: CPO observation span in preceding 4 h, h; column 3",3.0 (3.0–3.0),3.0 (3.0–3.0),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Latest mPAP in preceding 4 h available, n (%); column 1","21,619 (100.0)","21,619 (100.0)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Latest mPAP in preceding 4 h available, n (%); column 2","3,416 (100.0)","3,416 (100.0)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Latest mPAP in preceding 4 h available, n (%); column 3","6,778 (87.4)","6,778 (87.4)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Latest SvO₂ in preceding 4 h available, n (%); column 1","21,619 (100.0)","21,619 (100.0)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Latest SvO₂ in preceding 4 h available, n (%); column 2","3,416 (100.0)","3,416 (100.0)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Latest SvO₂ in preceding 4 h available, n (%); column 3","4,819 (62.2)","4,819 (62.2)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: IABP active at landmark, n (%); column 1",807 (3.7),807 (3.7),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: IABP active at landmark, n (%); column 2",218 (6.4),218 (6.4),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: IABP active at landmark, n (%); column 3",867 (11.2),867 (11.2),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any vasopressor active at landmark, n (%); column 1","11,901 (55.0)","11,901 (55.0)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any vasopressor active at landmark, n (%); column 2",859 (25.1),859 (25.1),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any vasopressor active at landmark, n (%); column 3","2,066 (26.6)","2,066 (26.6)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any inotrope active at landmark, n (%); column 1","9,101 (42.1)","9,101 (42.1)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any inotrope active at landmark, n (%); column 2",628 (18.4),628 (18.4),private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+"Table 1: Any inotrope active at landmark, n (%); column 3","1,640 (21.2)","1,640 (21.2)",private_work/submission_crosscheck/Table_1_recomputed.csv,PASS,numeric,
+Table 2: Brier score‡; column 1,0.04602,0.04602,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Brier score‡; column 2,0.04428,0.04428,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Brier score‡; column 3,−0.001744 (−0.003433 to −0.000438),−0.001744 (−0.003433 to −0.000438),private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Brier score‡; column 4,0.04882,0.04882,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Table 2: Brier score‡; column 5,0.04747,0.04747,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Table 2: Brier score‡; column 6,−0.00135 (−0.00246 to −0.00025),−0.00135 (−0.00246 to −0.00025),private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: AUROC; column 1,0.8216,0.8216,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: AUROC; column 2,0.8658,0.8658,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: AUROC; column 3,+0.0442 (+0.0266 to +0.0642),+0.0442 (+0.0266 to +0.0642),private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: AUROC; column 4,0.8238,0.8238,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: AUROC; column 5,0.8388,0.8388,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: AUROC; column 6,+0.0151 (−0.0079 to +0.0348),+0.0151 (−0.0079 to +0.0348),private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Table 2: Average precision; column 1,0.2261,0.2261,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Average precision; column 2,0.2757,0.2757,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Average precision; column 3,+0.0496 (−0.0001 to +0.1063),+0.0496 (−0.0001 to +0.1063),private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Average precision; column 4,0.2170,0.2170,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Average precision; column 5,0.2793,0.2793,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Table 2: Average precision; column 6,+0.0623 (+0.0145 to +0.1052),+0.0623 (+0.0145 to +0.1052),private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Table 2: Log loss; column 1,0.17316,0.17316,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Log loss; column 2,0.15962,0.15962,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Log loss; column 3,−0.01354 (−0.02105 to −0.00696),−0.01354 (−0.02105 to −0.00696),private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Log loss; column 4,0.18232,0.18232,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Table 2: Log loss; column 5,0.17776,0.17776,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Table 2: Log loss; column 6,−0.00456 (−0.01189 to +0.00509),−0.00456 (−0.01189 to +0.00509),private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration intercept; column 1,0.579,0.579,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration intercept; column 2,0.699,0.699,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration intercept; column 3,—,—,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration intercept; column 4,0.439,0.439,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Table 2: Calibration intercept; column 5,0.566,0.566,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration intercept; column 6,—,—,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration slope; column 1,1.068,1.068,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration slope; column 2,1.165,1.165,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration slope; column 3,—,—,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration slope; column 4,0.990,0.990,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration slope; column 5,0.998,0.998,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Table 2: Calibration slope; column 6,—,—,private_work/submission_crosscheck/Table_2_recomputed.csv,PASS,numeric,
+Supplementary Table 1; row 1; column 1,Cardiac output,Cardiac output,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 1; column 2,chartevents item 224842 (CCO),chartevents item 224842 (CCO),fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 1; column 3,nurseCharting exact label/name CO|CO,nurseCharting exact label/name CO|CO,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 1; column 4,Direct measurement,Direct measurement,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 1; column 5,Measurement charttime in MIMIC; entry offset available by landmark in eICU,Measurement charttime in MIMIC; entry offset available by landmark in eICU,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 1; column 6,"eICU does not distinguish continuous thermodilution, intermittent thermodilution, or Fick CO","eICU does not distinguish continuous thermodilution, intermittent thermodilution, or Fick CO",fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 2; column 1,MAP,MAP,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 2; column 2,"chartevents items 220052, 225312, and 220181","chartevents items 220052, 225312, and 220181",fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 2; column 3,Exact-offset invasive nurse MAP; otherwise preceding <=5 min vitalPeriodic.systemicMean; otherwise exact-offset vitalAperiodic.noninvasiveMean,Exact-offset invasive nurse MAP; otherwise preceding <=5 min vitalPeriodic.systemicMean; otherwise exact-offset vitalAperiodic.noninvasiveMean,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 2; column 4,Prespecified source-priority rule,Prespecified source-priority rule,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 2; column 5,Concurrent in MIMIC; no future pairing in eICU,Concurrent in MIMIC; no future pairing in eICU,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 2; column 6,Valid range 20-250 mmHg,Valid range 20-250 mmHg,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 3; column 1,CPO,CPO,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 3; column 2,Derived,Derived,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 3; column 3,Derived,Derived,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 3; column 4,CO x MAP / 451,CO x MAP / 451,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 3; column 5,At paired CO-MAP time,At paired CO-MAP time,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 3; column 6,Native CPO was not the primary source,Native CPO was not the primary source,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 4; column 1,mPAP,mPAP,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 4; column 2,chartevents item 220061,chartevents item 220061,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 4; column 3,nurseCharting exact label/name PA|PA Mean,nurseCharting exact label/name PA|PA Mean,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 4; column 4,Direct mapped measurement,Direct mapped measurement,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 4; column 5,"Current value and summaries in (L-4 h, L]","Current value and summaries in (L-4 h, L]",fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 4; column 6,Used dynamically only by Model C,Used dynamically only by Model C,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 5; column 1,SvO₂,SvO₂,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 5; column 2,chartevents item 223772,chartevents item 223772,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 5; column 3,nurseCharting exact label/name SVO2|SVO2,nurseCharting exact label/name SVO2|SVO2,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 5; column 4,Direct mapped measurement,Direct mapped measurement,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 5; column 5,"Current value and summaries in (L-4 h, L]","Current value and summaries in (L-4 h, L]",fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 1; row 5; column 6,MIMIC ScvO₂ item 226541 was not substituted,MIMIC ScvO₂ item 226541 was not substituted,fresh Supplement table-summary function make_table_s1,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 1; column 1,age,age,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 1; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 1; column 3,Age at ICU admission,Age at ICU admission,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 1; column 4,years,years,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 1; column 5,ICU admission,ICU admission,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 1; column 6,Recorded value,Recorded value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 1; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 2; column 1,landmark_h,landmark_h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 2; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 2; column 3,Elapsed time from ICU admission to landmark,Elapsed time from ICU admission to landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 2; column 4,hours,hours,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 2; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 2; column 6,Recorded value,Recorded value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 2; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 3; column 1,landmark_h_sq,landmark_h_sq,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 3; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 3; column 3,Squared landmark hour,Squared landmark hour,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 3; column 4,hours squared,hours squared,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 3; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 3; column 6,Recorded value,Recorded value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 3; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 4; column 1,n_cpo_history_4h,n_cpo_history_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 4; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 4; column 3,"Number of CPO measurements in (L-4 h, L]","Number of CPO measurements in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 4; column 4,count,count,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 4; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 4; column 6,Measurement count,Measurement count,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 4; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 5; column 1,n_mpap_history_4h,n_mpap_history_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 5; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 5; column 3,"Number of mPAP measurements in (L-4 h, L]","Number of mPAP measurements in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 5; column 4,count,count,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 5; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 5; column 6,Measurement count,Measurement count,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 5; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 6; column 1,n_svo2_history_4h,n_svo2_history_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 6; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 6; column 3,"Number of SvO₂ measurements in (L-4 h, L]","Number of SvO₂ measurements in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 6; column 4,count,count,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 6; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 6; column 6,Measurement count,Measurement count,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 6; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 7; column 1,cpo_recency_h,cpo_recency_h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 7; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 7; column 3,Time since most recent CPO measurement at L,Time since most recent CPO measurement at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 7; column 4,hours,hours,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 7; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 7; column 6,Time since most recent value,Time since most recent value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 7; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 8; column 1,mpap_recency_h,mpap_recency_h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 8; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 8; column 3,Time since most recent mPAP measurement at L,Time since most recent mPAP measurement at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 8; column 4,hours,hours,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 8; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 8; column 6,Time since most recent value,Time since most recent value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 8; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 9; column 1,svo2_recency_h,svo2_recency_h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 9; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 9; column 3,Time since most recent SvO₂ measurement at L,Time since most recent SvO₂ measurement at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 9; column 4,hours,hours,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 9; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 9; column 6,Time since most recent value,Time since most recent value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 9; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 10; column 1,iabp_active_at_landmark,iabp_active_at_landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 10; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 10; column 3,Intra-aortic balloon pump active at L,Intra-aortic balloon pump active at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 10; column 4,binary,binary,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 10; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 10; column 6,Indicator at landmark,Indicator at landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 10; column 7,Development median if missing; no MIMIC missingness,Development median if missing; no MIMIC missingness,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 11; column 1,drug_norepinephrine_active_at_landmark,drug_norepinephrine_active_at_landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 11; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 11; column 3,Norepinephrine infusion active at L,Norepinephrine infusion active at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 11; column 4,binary,binary,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 11; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 11; column 6,Indicator at landmark,Indicator at landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 11; column 7,Development median if missing; no MIMIC missingness,Development median if missing; no MIMIC missingness,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 12; column 1,drug_epinephrine_active_at_landmark,drug_epinephrine_active_at_landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 12; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 12; column 3,Epinephrine infusion active at L,Epinephrine infusion active at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 12; column 4,binary,binary,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 12; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 12; column 6,Indicator at landmark,Indicator at landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 12; column 7,Development median if missing; no MIMIC missingness,Development median if missing; no MIMIC missingness,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 13; column 1,drug_vasopressin_active_at_landmark,drug_vasopressin_active_at_landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 13; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 13; column 3,Vasopressin infusion active at L,Vasopressin infusion active at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 13; column 4,binary,binary,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 13; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 13; column 6,Indicator at landmark,Indicator at landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 13; column 7,Development median if missing; no MIMIC missingness,Development median if missing; no MIMIC missingness,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 14; column 1,drug_phenylephrine_active_at_landmark,drug_phenylephrine_active_at_landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 14; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 14; column 3,Phenylephrine infusion active at L,Phenylephrine infusion active at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 14; column 4,binary,binary,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 14; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 14; column 6,Indicator at landmark,Indicator at landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 14; column 7,Development median if missing; no MIMIC missingness,Development median if missing; no MIMIC missingness,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 15; column 1,drug_dopamine_active_at_landmark,drug_dopamine_active_at_landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 15; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 15; column 3,Dopamine infusion active at L,Dopamine infusion active at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 15; column 4,binary,binary,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 15; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 15; column 6,Indicator at landmark,Indicator at landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 15; column 7,Development median if missing; no MIMIC missingness,Development median if missing; no MIMIC missingness,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 16; column 1,drug_dobutamine_active_at_landmark,drug_dobutamine_active_at_landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 16; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 16; column 3,Dobutamine infusion active at L,Dobutamine infusion active at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 16; column 4,binary,binary,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 16; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 16; column 6,Indicator at landmark,Indicator at landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 16; column 7,Development median if missing; no MIMIC missingness,Development median if missing; no MIMIC missingness,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 17; column 1,drug_milrinone_active_at_landmark,drug_milrinone_active_at_landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 17; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 17; column 3,Milrinone infusion active at L,Milrinone infusion active at L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 17; column 4,binary,binary,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 17; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 17; column 6,Indicator at landmark,Indicator at landmark,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 17; column 7,Development median if missing; no MIMIC missingness,Development median if missing; no MIMIC missingness,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 18; column 1,cpo_current,cpo_current,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 18; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 18; column 3,"Most recent CPO in (L-4 h, L]; CPO eligibility additionally requires recency <=1 h","Most recent CPO in (L-4 h, L]; CPO eligibility additionally requires recency <=1 h",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 18; column 4,W,W,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 18; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 18; column 6,Most recent value,Most recent value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 18; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 19; column 1,cpo_mean_4h,cpo_mean_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 19; column 2,"B, C","B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 19; column 3,"Mean CPO in (L-4 h, L]","Mean CPO in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 19; column 4,W,W,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 19; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 19; column 6,Mean,Mean,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 19; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 20; column 1,cpo_min_4h,cpo_min_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 20; column 2,"B, C","B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 20; column 3,"Minimum CPO in (L-4 h, L]","Minimum CPO in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 20; column 4,W,W,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 20; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 20; column 6,Minimum,Minimum,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 20; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 21; column 1,cpo_max_4h,cpo_max_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 21; column 2,"B, C","B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 21; column 3,"Maximum CPO in (L-4 h, L]","Maximum CPO in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 21; column 4,W,W,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 21; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 21; column 6,Maximum,Maximum,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 21; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 22; column 1,cpo_sd_4h,cpo_sd_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 22; column 2,"B, C","B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 22; column 3,"Population standard deviation of CPO in (L-4 h, L]","Population standard deviation of CPO in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 22; column 4,W,W,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 22; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 22; column 6,Population SD,Population SD,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 22; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 23; column 1,cpo_slope_4h,cpo_slope_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 23; column 2,"B, C","B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 23; column 3,"Linear time slope of CPO in (L-4 h, L]","Linear time slope of CPO in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 23; column 4,W/h,W/h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 23; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 23; column 6,Linear slope,Linear slope,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 23; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 24; column 1,cpo_delta_4h,cpo_delta_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 24; column 2,"B, C","B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 24; column 3,"Last minus first CPO in (L-4 h, L]","Last minus first CPO in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 24; column 4,W,W,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 24; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 24; column 6,Last minus first,Last minus first,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 24; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 25; column 1,cpo_span_4h,cpo_span_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 25; column 2,"B, C","B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 25; column 3,"Elapsed time from first to last CPO in (L-4 h, L]","Elapsed time from first to last CPO in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 25; column 4,hours,hours,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 25; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 25; column 6,First-to-last span,First-to-last span,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 25; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 26; column 1,mpap_current,mpap_current,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 26; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 26; column 3,"Most recent mPAP in (L-4 h, L]","Most recent mPAP in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 26; column 4,mmHg,mmHg,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 26; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 26; column 6,Most recent value,Most recent value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 26; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 27; column 1,mpap_mean_4h,mpap_mean_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 27; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 27; column 3,"Mean mPAP in (L-4 h, L]","Mean mPAP in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 27; column 4,mmHg,mmHg,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 27; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 27; column 6,Mean,Mean,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 27; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 28; column 1,mpap_min_4h,mpap_min_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 28; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 28; column 3,"Minimum mPAP in (L-4 h, L]","Minimum mPAP in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 28; column 4,mmHg,mmHg,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 28; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 28; column 6,Minimum,Minimum,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 28; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 29; column 1,mpap_max_4h,mpap_max_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 29; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 29; column 3,"Maximum mPAP in (L-4 h, L]","Maximum mPAP in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 29; column 4,mmHg,mmHg,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 29; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 29; column 6,Maximum,Maximum,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 29; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 30; column 1,mpap_sd_4h,mpap_sd_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 30; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 30; column 3,"Population standard deviation of mPAP in (L-4 h, L]","Population standard deviation of mPAP in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 30; column 4,mmHg,mmHg,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 30; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 30; column 6,Population SD,Population SD,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 30; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 31; column 1,mpap_slope_4h,mpap_slope_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 31; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 31; column 3,"Linear time slope of mPAP in (L-4 h, L]","Linear time slope of mPAP in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 31; column 4,mmHg/h,mmHg/h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 31; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 31; column 6,Linear slope,Linear slope,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 31; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 32; column 1,mpap_delta_4h,mpap_delta_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 32; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 32; column 3,"Last minus first mPAP in (L-4 h, L]","Last minus first mPAP in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 32; column 4,mmHg,mmHg,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 32; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 32; column 6,Last minus first,Last minus first,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 32; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 33; column 1,mpap_span_4h,mpap_span_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 33; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 33; column 3,"Elapsed time from first to last mPAP in (L-4 h, L]","Elapsed time from first to last mPAP in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 33; column 4,hours,hours,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 33; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 33; column 6,First-to-last span,First-to-last span,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 33; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 34; column 1,svo2_current,svo2_current,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 34; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 34; column 3,"Most recent SvO₂ in (L-4 h, L]","Most recent SvO₂ in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 34; column 4,%,%,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 34; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 34; column 6,Most recent value,Most recent value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 34; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 35; column 1,svo2_mean_4h,svo2_mean_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 35; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 35; column 3,"Mean SvO₂ in (L-4 h, L]","Mean SvO₂ in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 35; column 4,%,%,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 35; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 35; column 6,Mean,Mean,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 35; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 36; column 1,svo2_min_4h,svo2_min_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 36; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 36; column 3,"Minimum SvO₂ in (L-4 h, L]","Minimum SvO₂ in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 36; column 4,%,%,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 36; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 36; column 6,Minimum,Minimum,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 36; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 37; column 1,svo2_max_4h,svo2_max_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 37; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 37; column 3,"Maximum SvO₂ in (L-4 h, L]","Maximum SvO₂ in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 37; column 4,%,%,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 37; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 37; column 6,Maximum,Maximum,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 37; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 38; column 1,svo2_sd_4h,svo2_sd_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 38; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 38; column 3,"Population standard deviation of SvO₂ in (L-4 h, L]","Population standard deviation of SvO₂ in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 38; column 4,%,%,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 38; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 38; column 6,Population SD,Population SD,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 38; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 39; column 1,svo2_slope_4h,svo2_slope_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 39; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 39; column 3,"Linear time slope of SvO₂ in (L-4 h, L]","Linear time slope of SvO₂ in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 39; column 4,%/h,%/h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 39; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 39; column 6,Linear slope,Linear slope,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 39; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 40; column 1,svo2_delta_4h,svo2_delta_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 40; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 40; column 3,"Last minus first SvO₂ in (L-4 h, L]","Last minus first SvO₂ in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 40; column 4,%,%,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 40; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 40; column 6,Last minus first,Last minus first,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 40; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 41; column 1,svo2_span_4h,svo2_span_4h,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 41; column 2,C,C,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 41; column 3,"Elapsed time from first to last SvO₂ in (L-4 h, L]","Elapsed time from first to last SvO₂ in (L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 41; column 4,hours,hours,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 41; column 5,"(L-4 h, L]","(L-4 h, L]",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 41; column 6,First-to-last span,First-to-last span,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 41; column 7,Development median,Development median,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 42; column 1,gender,gender,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 42; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 42; column 3,Recorded administrative sex,Recorded administrative sex,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 42; column 4,category,category,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 42; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 42; column 6,Recorded value,Recorded value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 42; column 7,Development mode,Development mode,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 43; column 1,first_careunit,first_careunit,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 43; column 2,"A, B, C","A, B, C",fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 43; column 3,First ICU care unit,First ICU care unit,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 43; column 4,category,category,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 43; column 5,At L,At L,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 43; column 6,Recorded value,Recorded value,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 2; row 43; column 7,Development mode,Development mode,fresh Supplement table-summary function make_table_s2,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 3; row 1; column 1,MIMIC-IV development,MIMIC-IV development,fresh Supplement table-summary function make_table_s3,PASS,contract_text,
+Supplementary Table 3; row 1; column 2,71.8,71.8,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 1; column 3,0.936 (0.809-1.135),0.936 (0.809-1.135),fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 1; column 4,0.725-1.775,0.725-1.775,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 1; column 5,7.041,7.041,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 1; column 6,1.775,1.775,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 1; column 7,"20,788.1","20,788.1",fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 1; column 8,94.7,94.7,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 2; column 1,MIMIC-IV temporal,MIMIC-IV temporal,fresh Supplement table-summary function make_table_s3,PASS,contract_text,
+Supplementary Table 3; row 2; column 2,72.3,72.3,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 2; column 3,1.086 (0.919-1.269),1.086 (0.919-1.269),fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 2; column 4,0.735-1.800,0.735-1.800,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 2; column 5,2.476,2.476,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 2; column 6,1.775,1.775,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 2; column 7,"3,268.2","3,268.2",fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 2; column 8,95.4,95.4,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 3; column 1,eICU external,eICU external,fresh Supplement table-summary function make_table_s3,PASS,contract_text,
+Supplementary Table 3; row 3; column 2,59.8,59.8,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 3; column 3,1.049 (0.870-1.277),1.049 (0.870-1.277),fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 3; column 4,0.623-2.314,0.623-2.314,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 3; column 5,11.954,11.954,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 3; column 6,2.314,2.314,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 3; column 7,"7,088.6","7,088.6",fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 3; row 3; column 8,91.4,91.4,fresh Supplement table-summary function make_table_s3,PASS,table_cell,
+Supplementary Table 4; row 1; column 1,Brier score,Brier score,fresh Supplement table-summary function make_table_s4,PASS,contract_text,
+Supplementary Table 4; row 1; column 2,0.044276,0.044276,fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 1; column 3,0.044712,0.044712,fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 1; column 4,+0.000436 (-0.000275 to +0.001397),+0.000436 (-0.000275 to +0.001397),fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 2; column 1,AUROC,AUROC,fresh Supplement table-summary function make_table_s4,PASS,contract_text,
+Supplementary Table 4; row 2; column 2,0.8658,0.8658,fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 2; column 3,0.8680,0.8680,fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 2; column 4,+0.0022 (-0.0066 to +0.0119),+0.0022 (-0.0066 to +0.0119),fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 3; column 1,Average precision,Average precision,fresh Supplement table-summary function make_table_s4,PASS,contract_text,
+Supplementary Table 4; row 3; column 2,0.2757,0.2757,fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 3; column 3,0.2488,0.2488,fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 3; column 4,-0.0269 (-0.0643 to +0.0084),-0.0269 (-0.0643 to +0.0084),fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 4; column 1,Log loss,Log loss,fresh Supplement table-summary function make_table_s4,PASS,contract_text,
+Supplementary Table 4; row 4; column 2,0.159622,0.159622,fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 4; column 3,0.160237,0.160237,fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 4; row 4; column 4,+0.000615 (-0.002235 to +0.003759),+0.000615 (-0.002235 to +0.003759),fresh Supplement table-summary function make_table_s4,PASS,table_cell,
+Supplementary Table 5; row 1; column 1,Primary temporal analysis,Primary temporal analysis,fresh Supplement table-summary function make_table_s5,PASS,contract_text,
+Supplementary Table 5; row 1; column 2,"3,416","3,416",fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 1; column 3,202,202,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 1; column 4,62,62,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 1; column 5,-0.001744 (-0.003433 to -0.000438),-0.001744 (-0.003433 to -0.000438),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 1; column 6,+0.0442 (+0.0266 to +0.0642),+0.0442 (+0.0266 to +0.0642),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 1; column 7,+0.0496 (-0.0001 to +0.1063),+0.0496 (-0.0001 to +0.1063),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 1; column 8,-0.013541 (-0.021052 to -0.006960),-0.013541 (-0.021052 to -0.006960),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 2; column 1,No prior CPO <0.60 W,No prior CPO <0.60 W,fresh Supplement table-summary function make_table_s5,PASS,contract_text,
+Supplementary Table 5; row 2; column 2,"3,117","3,117",fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 2; column 3,137,137,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 2; column 4,46,46,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 2; column 5,-0.001167 (-0.002525 to -0.000262),-0.001167 (-0.002525 to -0.000262),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 2; column 6,+0.0414 (+0.0232 to +0.0598),+0.0414 (+0.0232 to +0.0598),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 2; column 7,+0.0484 (-0.0060 to +0.1170),+0.0484 (-0.0060 to +0.1170),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 2; column 8,-0.009602 (-0.016406 to -0.004626),-0.009602 (-0.016406 to -0.004626),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 3; column 1,Latest CPO ≥0.70 W,Latest CPO ≥0.70 W,fresh Supplement table-summary function make_table_s5,PASS,contract_text,
+Supplementary Table 5; row 3; column 2,"3,089","3,089",fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 3; column 3,131,131,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 3; column 4,56,56,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 3; column 5,-0.001354 (—),-0.001354 (—),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 3; column 6,+0.0684 (—),+0.0684 (—),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 3; column 7,+0.0612 (—),+0.0612 (—),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 3; column 8,-0.013406 (—),-0.013406 (—),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 4; column 1,Strict information clock,Strict information clock,fresh Supplement table-summary function make_table_s5,PASS,contract_text,
+Supplementary Table 5; row 4; column 2,"2,266","2,266",fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 4; column 3,117,117,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 4; column 4,46,46,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 4; column 5,-0.001393 (-0.003498 to +0.000197),-0.001393 (-0.003498 to +0.000197),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 4; column 6,+0.0552 (+0.0231 to +0.0887),+0.0552 (+0.0231 to +0.0887),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 4; column 7,+0.0281 (-0.0326 to +0.0955),+0.0281 (-0.0326 to +0.0955),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 4; column 8,-0.013299 (-0.022542 to -0.004852),-0.013299 (-0.022542 to -0.004852),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 5; column 1,Broader CPO-eligible risk set,Broader CPO-eligible risk set,fresh Supplement table-summary function make_table_s5,PASS,contract_text,
+Supplementary Table 5; row 5; column 2,"3,426","3,426",fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 5; column 3,208,208,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 5; column 4,66,66,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 5; column 5,-0.001750 (-0.003359 to -0.000488),-0.001750 (-0.003359 to -0.000488),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 5; column 6,+0.0443 (+0.0261 to +0.0658),+0.0443 (+0.0261 to +0.0658),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 5; column 7,+0.0480 (-0.0001 to +0.0977),+0.0480 (-0.0001 to +0.0977),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 5; column 8,-0.013779 (-0.021175 to -0.007541),-0.013779 (-0.021175 to -0.007541),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 6; column 1,Unweighted complete observation,Unweighted complete observation,fresh Supplement table-summary function make_table_s5,PASS,contract_text,
+Supplementary Table 5; row 6; column 2,"3,416","3,416",fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 6; column 3,202,202,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 6; column 4,62,62,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 6; column 5,-0.001929 (-0.003638 to -0.000525),-0.001929 (-0.003638 to -0.000525),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 6; column 6,+0.0463 (+0.0273 to +0.0673),+0.0463 (+0.0273 to +0.0673),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 6; column 7,+0.0486 (-0.0024 to +0.1042),+0.0486 (-0.0024 to +0.1042),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 6; column 8,-0.015060 (-0.023228 to -0.008082),-0.015060 (-0.023228 to -0.008082),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 7; column 1,eICU unweighted sensitivity,eICU unweighted sensitivity,fresh Supplement table-summary function make_table_s5,PASS,contract_text,
+Supplementary Table 5; row 7; column 2,"7,753","7,753",fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 7; column 3,469,469,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 7; column 4,157,157,fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 7; column 5,-0.001534 (—),-0.001534 (—),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 7; column 6,+0.0159 (—),+0.0159 (—),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 7; column 7,+0.0650 (—),+0.0650 (—),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 5; row 7; column 8,-0.005245 (—),-0.005245 (—),fresh Supplement table-summary function make_table_s5,PASS,table_cell,
+Supplementary Table 6; row 1; column 1,Hospital 183,Hospital 183,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 1; column 2,95,95,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 1; column 3,18,18,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 1; column 4,483,483,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 1; column 5,40,40,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 1; column 6,0.06482,0.06482,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 1; column 7,0.06615,0.06615,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 1; column 8,+0.00133,+0.00133,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 2; column 1,Hospital 420,Hospital 420,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 2; column 2,105,105,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 2; column 3,9,9,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 2; column 4,557,557,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 2; column 5,15,15,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 2; column 6,0.02071,0.02071,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 2; column 7,0.02067,0.02067,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 2; column 8,-0.00005,-0.00005,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 3; column 1,Hospital 443,Hospital 443,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 3; column 2,38,38,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 3; column 3,6,6,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 3; column 4,407,407,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 3; column 5,19,19,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 3; column 6,0.04046,0.04046,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 3; column 7,0.04036,0.04036,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 3; column 8,-0.00010,-0.00010,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 4; column 1,Hospital 435,Hospital 435,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 4; column 2,120,120,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 4; column 3,15,15,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 4; column 4,"1,135","1,135",fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 4; column 5,50,50,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 4; column 6,0.03588,0.03588,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 4; column 7,0.03533,0.03533,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 4; column 8,-0.00054,-0.00054,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 5; column 1,Hospital 142,Hospital 142,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 5; column 2,46,46,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 5; column 3,5,5,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 5; column 4,177,177,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 5; column 5,17,17,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 5; column 6,0.08202,0.08202,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 5; column 7,0.08102,0.08102,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 5; column 8,-0.00100,-0.00100,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 6; column 1,Hospital 197,Hospital 197,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 6; column 2,48,48,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 6; column 3,10,10,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 6; column 4,429,429,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 6; column 5,28,28,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 6; column 6,0.05457,0.05457,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 6; column 7,0.05268,0.05268,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 6; column 8,-0.00189,-0.00189,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 7; column 1,Hospital 248,Hospital 248,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 7; column 2,104,104,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 7; column 3,28,28,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 7; column 4,496,496,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 7; column 5,80,80,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 7; column 6,0.12640,0.12640,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 7; column 7,0.12442,0.12442,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 7; column 8,-0.00198,-0.00198,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 8; column 1,Hospital 252,Hospital 252,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 8; column 2,147,147,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 8; column 3,31,31,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 8; column 4,"2,175","2,175",fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 8; column 5,121,121,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 8; column 6,0.04687,0.04687,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 8; column 7,0.04479,0.04479,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 8; column 8,-0.00209,-0.00209,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 9; column 1,Hospital 122,Hospital 122,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 9; column 2,57,57,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 9; column 3,8,8,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 9; column 4,581,581,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 9; column 5,24,24,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 9; column 6,0.03734,0.03734,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 9; column 7,0.03525,0.03525,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 9; column 8,-0.00209,-0.00209,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 10; column 1,Hospital 254,Hospital 254,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 10; column 2,51,51,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 10; column 3,8,8,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 10; column 4,433,433,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 10; column 5,27,27,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 10; column 6,0.05539,0.05539,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 10; column 7,0.05118,0.05118,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 10; column 8,-0.00422,-0.00422,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 11; column 1,Hospital 141,Hospital 141,fresh Supplement table-summary function make_table_s6,PASS,contract_text,
+Supplementary Table 6; row 11; column 2,28,28,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 11; column 3,7,7,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 11; column 4,93,93,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 11; column 5,16,16,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 11; column 6,0.13319,0.13319,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 11; column 7,0.12533,0.12533,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 6; row 11; column 8,-0.00786,-0.00786,fresh Supplement table-summary function make_table_s6,PASS,table_cell,
+Supplementary Table 7; row 1; column 1,0.020,0.020,fresh Supplement table-summary function make_table_s7,PASS,contract_text,
+Supplementary Table 7; row 1; column 2,98.6,98.6,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 1; column 3,98.4,98.4,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 1; column 4,48.6,48.6,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 1; column 5,77.3,77.3,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 2; column 1,0.030,0.030,fresh Supplement table-summary function make_table_s7,PASS,contract_text,
+Supplementary Table 7; row 2; column 2,95.9,95.9,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 2; column 3,96.8,96.8,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 2; column 4,36.6,36.6,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 2; column 5,70.0,70.0,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 3; column 1,0.050†,0.050†,fresh Supplement table-summary function make_table_s7,PASS,contract_text,
+Supplementary Table 7; row 3; column 2,93.2,93.2,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 3; column 3,95.2,95.2,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 3; column 4,23.4,23.4,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 3; column 5,58.1,58.1,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 4; column 1,0.075,0.075,fresh Supplement table-summary function make_table_s7,PASS,contract_text,
+Supplementary Table 7; row 4; column 2,87.7,87.7,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 4; column 3,88.7,88.7,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 4; column 4,15.1,15.1,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 4; column 5,49.3,49.3,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 5; column 1,0.100,0.100,fresh Supplement table-summary function make_table_s7,PASS,contract_text,
+Supplementary Table 7; row 5; column 2,72.6,72.6,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 5; column 3,74.2,74.2,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 5; column 4,10.3,10.3,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 5; column 5,39.4,39.4,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 6; column 1,0.150,0.150,fresh Supplement table-summary function make_table_s7,PASS,contract_text,
+Supplementary Table 7; row 6; column 2,54.8,54.8,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 6; column 3,58.1,58.1,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 6; column 4,4.8,4.8,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 7; row 6; column 5,29.1,29.1,fresh Supplement table-summary function make_table_s7,PASS,table_cell,
+Supplementary Table 8; row 1; column 1,Primary confirmed/repeated CPO <0.60 W within 6 h,Primary confirmed/repeated CPO <0.60 W within 6 h,fresh Supplement table-summary function make_table_s8,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 1; column 2,Two values <0.60 W separated by 0.5-3 h,Two values <0.60 W separated by 0.5-3 h,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 1; column 3,"4,730","4,730",fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 1; column 4,202,202,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 1; column 5,62,62,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 1; column 6,"Yes, Models A/B/C","Yes, Models A/B/C",fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 1; column 7,Primary,Primary,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 2; column 1,Confirmed/repeated CPO <0.60 W within 12 h,Confirmed/repeated CPO <0.60 W within 12 h,fresh Supplement table-summary function make_table_s8,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 2; column 2,Same confirmation rule within 12 h,Same confirmation rule within 12 h,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 2; column 3,"4,583","4,583",fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 2; column 4,319,319,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 2; column 5,65,65,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 2; column 6,No,No,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 2; column 7,Counts only,Counts only,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 3; column 1,Confirmed/repeated CPO <0.50 W within 6 h,Confirmed/repeated CPO <0.50 W within 6 h,fresh Supplement table-summary function make_table_s8,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 3; column 2,Two values <0.50 W separated by 0.5-3 h,Two values <0.50 W separated by 0.5-3 h,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 3; column 3,"4,730","4,730",fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 3; column 4,38,38,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 3; column 5,16,16,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 3; column 6,No,No,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 3; column 7,Event count insufficient,Event count insufficient,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 4; column 1,Confirmed/repeated CPO <0.50 W within 12 h,Confirmed/repeated CPO <0.50 W within 12 h,fresh Supplement table-summary function make_table_s8,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 4; column 2,Same confirmation rule within 12 h,Same confirmation rule within 12 h,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 4; column 3,"4,583","4,583",fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 4; column 4,66,66,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 4; column 5,19,19,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 4; column 6,No,No,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 4; column 7,Counts only,Counts only,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 5; column 1,Low CPO with concurrent SvO₂ <60%,Low CPO with concurrent SvO₂ <60%,fresh Supplement table-summary function make_table_s8,PASS,contract_text,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 5; column 2,No prespecified temporal matching rule,No prespecified temporal matching rule,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 5; column 3,—,—,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 5; column 4,—,—,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 5; column 5,—,—,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 5; column 6,No,No,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+Supplementary Table 8; row 5; column 7,Not operationalised,Not operationalised,fresh Supplement table-summary function make_table_s8,PASS,table_cell,"Mapping and definition rows are frozen code-contract checks, not new numerical estimates."
+S8 independent counts 0.6 W/6 h: eligible_landmarks,4730,4730,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.6 W/6 h: event_positive_landmarks,202,202,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.6 W/6 h: event_positive_patients,62,62,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.6 W/12 h: eligible_landmarks,4583,4583,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.6 W/12 h: event_positive_landmarks,319,319,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.6 W/12 h: event_positive_patients,65,65,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.5 W/6 h: eligible_landmarks,4730,4730,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.5 W/6 h: event_positive_landmarks,38,38,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.5 W/6 h: event_positive_patients,16,16,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.5 W/12 h: eligible_landmarks,4583,4583,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.5 W/12 h: event_positive_landmarks,66,66,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+S8 independent counts 0.5 W/12 h: event_positive_patients,19,19,private_work/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/stage_r3_sensitivity_counts/corrected_landmark_sensitivity_counts.csv,PASS,numeric,
+Main paragraph 27: temporal patients,265,265,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 27: temporal landmarks,"3,416","3,416",fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 27: temporal event landmarks,202,202,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 27: temporal event patients,62,62,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 27: external patients,840,840,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 27: external landmarks,"7,753","7,753",fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 27: external event landmarks,469,469,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 27: external event patients,157,157,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 68: development patients,"1,544","1,544",fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 68: development landmarks,"21,619","21,619",fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 68: temporal patients,265,265,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 68: temporal landmarks,"3,416","3,416",fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 79: external patients,840,840,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 79: external landmarks,"7,753","7,753",fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 79: external hospitals,27,27,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 79: external event landmarks,469,469,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 79: external event patients,157,157,fresh Table 1 cohort-summary counts,PASS,prose_token,Token presence plus fresh cohort/table verification; not a claim of semantic automated reading.
+Main paragraph 27: external Brier Model A,0.04882,0.04882,fresh final-R1 absolute metrics / Table 2 row Brier,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Main paragraph 27: external Brier Model B,0.04747,0.04747,fresh final-R1 absolute metrics / Table 2 row Brier,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Main paragraph 80: external Brier Model A,0.04882,0.04882,fresh final-R1 absolute metrics / Table 2 row Brier,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Main paragraph 80: external Brier Model B,0.04747,0.04747,fresh final-R1 absolute metrics / Table 2 row Brier,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Main paragraph 27: temporal Brier Model A,0.04602,0.04602,fresh temporal_metrics.csv,PASS,prose_token,
+Main paragraph 27: temporal Brier Model B,0.04428,0.04428,fresh temporal_metrics.csv,PASS,prose_token,
+Main paragraph 70: temporal Brier Model A,0.04602,0.04602,fresh temporal_metrics.csv,PASS,prose_token,
+Main paragraph 70: temporal Brier Model B,0.04428,0.04428,fresh temporal_metrics.csv,PASS,prose_token,
+Main paragraph 80: external Average precision Model B,0.2793,0.2793,fresh final-R1 absolute metrics and paired CI output / Table 2 Average precision,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Main paragraph 80: external Average precision B-A,+0.0623,+0.0623,fresh final-R1 absolute metrics and paired CI output / Table 2 Average precision,PASS,numeric,Resolved in verified Manuscript_numbers_corrected.docx; SHA256 recorded in RELEASE_STATUS.json. No new numerical analysis.
+Code availability paragraph 97,[repository URL],Real public URL after licence approval and release,Main manuscript paragraph 97; LICENSE_PENDING.md,AFTER_UPLOAD_ACTION,publication_gate,Actual repository URL must be added only after public upload; this does not block sealing a local code payload.
+Graphical_Abstract: regenerated PNG,3dd37500f40733b32fa4e7bbe7d002be576ff8ab8fc6c2068502163770d84c3e,3dd37500f40733b32fa4e7bbe7d002be576ff8ab8fc6c2068502163770d84c3e,fresh locked renderer; independent comparison against author-approved FIGURE_LOCK.json,PASS,pixel_identity,Exact 600-dpi PNG match; PDF metadata may differ. No new figure design.
+Figure_1: regenerated PNG,405319d0eada28630530143df91a9d661758f204a97596fa5c493e1cce0b290e,405319d0eada28630530143df91a9d661758f204a97596fa5c493e1cce0b290e,fresh locked renderer; independent comparison against author-approved FIGURE_LOCK.json,PASS,pixel_identity,Exact 600-dpi PNG match; PDF metadata may differ. No new figure design.
+Figure_2: regenerated PNG,9a3639493868fabfe700cf81383fd5475fc8ff3d195fde6f21137ebb6cf7d7f4,9a3639493868fabfe700cf81383fd5475fc8ff3d195fde6f21137ebb6cf7d7f4,fresh locked renderer; independent comparison against author-approved FIGURE_LOCK.json,PASS,pixel_identity,Exact 600-dpi PNG match; PDF metadata may differ. No new figure design.
+Figure_3: regenerated PNG,7b85cfddc8e0132d6d3e089b1ab6f4a089ab42b42e5f612a064fd63c5f71bd73,7b85cfddc8e0132d6d3e089b1ab6f4a089ab42b42e5f612a064fd63c5f71bd73,fresh locked renderer; independent comparison against author-approved FIGURE_LOCK.json,PASS,pixel_identity,Exact 600-dpi PNG match; PDF metadata may differ. No new figure design.
+Figure_4: regenerated PNG,7c344193b0d7e2b792152f475544295c933a1805b59aa0fa9dad470bb931f812,7c344193b0d7e2b792152f475544295c933a1805b59aa0fa9dad470bb931f812,fresh locked renderer; independent comparison against author-approved FIGURE_LOCK.json,PASS,pixel_identity,Exact 600-dpi PNG match; PDF metadata may differ. No new figure design.
+Figure_S1: regenerated PNG,6163b4ba990b2d26f51ffc93275ae52e3ebfaaed6f0e60650b185eceea1347f9,6163b4ba990b2d26f51ffc93275ae52e3ebfaaed6f0e60650b185eceea1347f9,fresh locked renderer; independent comparison against author-approved FIGURE_LOCK.json,PASS,pixel_identity,Exact 600-dpi PNG match; PDF metadata may differ. No new figure design.
+Figure_S2: regenerated PNG,f6b22e214d3b8bf6dd3520338e6e77e8ee5e841d6167d9ac10f76df1c4408037,f6b22e214d3b8bf6dd3520338e6e77e8ee5e841d6167d9ac10f76df1c4408037,fresh locked renderer; independent comparison against author-approved FIGURE_LOCK.json,PASS,pixel_identity,Exact 600-dpi PNG match; PDF metadata may differ. No new figure design.
+Figure_S3: regenerated PNG,6d4dda602f163129233c3eabc86adbfec60085be385a529882f8c4c809ade69e,6d4dda602f163129233c3eabc86adbfec60085be385a529882f8c4c809ade69e,fresh locked renderer; independent comparison against author-approved FIGURE_LOCK.json,PASS,pixel_identity,Exact 600-dpi PNG match; PDF metadata may differ. No new figure design.
+Table_1: regenerated PNG,f5f67b2c5a779fa490fff1df8017cb42f4197566dbd7698ce3ded4f1558daf5c,f5f67b2c5a779fa490fff1df8017cb42f4197566dbd7698ce3ded4f1558daf5c,fresh locked renderer; independent comparison against author-approved FIGURE_LOCK.json,PASS,pixel_identity,Exact 600-dpi PNG match; PDF metadata may differ. No new figure design.
+Table_2: regenerated PNG,3691279552b79b2220e5d5127c96c57ae323c278fd3477e7fe8bd54fbeee570b,3691279552b79b2220e5d5127c96c57ae323c278fd3477e7fe8bd54fbeee570b,fresh locked renderer; independent comparison against author-approved FIGURE_LOCK.json,PASS,pixel_identity,Exact 600-dpi PNG match; PDF metadata may differ. No new figure design.
+Embedded Graphical Abstract,Visually checked in current main DOCX,Key numeric labels consistent with R1/temporal outputs,document_inspection/main_media,REVIEWED_VISUAL,embedded_preview,Embedded previews are not byte-identical to separate locked files; GA preview has fewer pixels. Not an assertion of pixel identity.
+Embedded Figure 1,Visually checked in current main DOCX,Key numeric labels consistent with R1/temporal outputs,document_inspection/main_media,PASS,embedded_preview,Exact RGB pixel identity to the fresh locked output; confirmed in final numeric/figure QA.
+Embedded Figure 2,Visually checked in current main DOCX,Key numeric labels consistent with R1/temporal outputs,document_inspection/main_media,PASS,embedded_preview,Exact RGB pixel identity to the fresh locked output; confirmed in final numeric/figure QA.
+Embedded Figure 3,Visually checked in current main DOCX,Key numeric labels consistent with R1/temporal outputs,document_inspection/main_media,PASS,embedded_preview,Exact RGB pixel identity to the fresh locked output; confirmed in final numeric/figure QA.
+Embedded Figure 4,Visually checked in current main DOCX,Key numeric labels consistent with R1/temporal outputs,document_inspection/main_media,PASS,embedded_preview,Exact RGB pixel identity to the fresh locked output; confirmed in final numeric/figure QA.
+Supplement title,Recent cardiac power history improves six-hour prediction of low-CPO episodes during pulmonary artery catheter monitoring,Recent cardiac power output history improves six-hour prediction of low-CPO episodes during pulmonary artery catheter monitoring,Current main/Supplement title text,EDITORIAL_REVIEW,wording,Supplement omits the word output in cardiac power output; no document modified.
+Supplement Fig. S1/S2 panel labels; S3 panel label,Lowercase S1/S2; S3 lacks panel letter,Previously recorded editorial correction,Read-only visual inspection / frozen plotting script,RECORDED_ONLY,layout,Author asked to record only; scripts unchanged.
+Supplement source-data wording,Source data are provided in reproducibility package,Clarify public aggregate vs private patient-level source data before publication,Supplement figure legends and code release exclusion policy,REVIEW_REQUIRED,availability_wording,No patient-level source data distributed in code-only candidate.

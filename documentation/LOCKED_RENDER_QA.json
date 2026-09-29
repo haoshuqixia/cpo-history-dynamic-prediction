@@ -1,0 +1,139 @@
+{
+  "figures": [
+    {
+      "name": "Graphical_Abstract",
+      "pixels": [
+        4251,
+        2952
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "3dd37500f40733b32fa4e7bbe7d002be576ff8ab8fc6c2068502163770d84c3e",
+      "matches_locked_PNG": true
+    },
+    {
+      "name": "Figure_1",
+      "pixels": [
+        4365,
+        4365
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "405319d0eada28630530143df91a9d661758f204a97596fa5c493e1cce0b290e",
+      "matches_locked_PNG": true
+    },
+    {
+      "name": "Figure_2",
+      "pixels": [
+        4474,
+        3574
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "9a3639493868fabfe700cf81383fd5475fc8ff3d195fde6f21137ebb6cf7d7f4",
+      "matches_locked_PNG": true
+    },
+    {
+      "name": "Figure_3",
+      "pixels": [
+        4834,
+        3339
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "7b85cfddc8e0132d6d3e089b1ab6f4a089ab42b42e5f612a064fd63c5f71bd73",
+      "matches_locked_PNG": true
+    },
+    {
+      "name": "Figure_4",
+      "pixels": [
+        4443,
+        3480
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "7c344193b0d7e2b792152f475544295c933a1805b59aa0fa9dad470bb931f812",
+      "matches_locked_PNG": true
+    },
+    {
+      "name": "Figure_S1",
+      "pixels": [
+        4359,
+        2619
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "6163b4ba990b2d26f51ffc93275ae52e3ebfaaed6f0e60650b185eceea1347f9",
+      "matches_locked_PNG": true
+    },
+    {
+      "name": "Figure_S2",
+      "pixels": [
+        4359,
+        2096
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "f6b22e214d3b8bf6dd3520338e6e77e8ee5e841d6167d9ac10f76df1c4408037",
+      "matches_locked_PNG": true
+    },
+    {
+      "name": "Figure_S3",
+      "pixels": [
+        4359,
+        1239
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "6d4dda602f163129233c3eabc86adbfec60085be385a529882f8c4c809ade69e",
+      "matches_locked_PNG": true
+    },
+    {
+      "name": "Table_1",
+      "pixels": [
+        5551,
+        4913
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "f5f67b2c5a779fa490fff1df8017cb42f4197566dbd7698ce3ded4f1558daf5c",
+      "matches_locked_PNG": true
+    },
+    {
+      "name": "Table_2",
+      "pixels": [
+        4960,
+        3472
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "sha256": "3691279552b79b2220e5d5127c96c57ae323c278fd3477e7fe8bd54fbeee570b",
+      "matches_locked_PNG": true
+    }
+  ],
+  "model_refitting": false,
+  "bootstrap_repeated": false,
+  "exact_png_matches": 10,
+  "statistical_analysis_rerun_this_command": false,
+  "note": "Exact pixels require recorded software and fonts; PDFs have timestamp metadata."
+}

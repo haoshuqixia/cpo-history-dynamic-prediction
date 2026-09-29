@@ -1,0 +1,44 @@
+predictor,block,definition_and_timing,unit,source_or_derivation
+age,shared/Model A,Age at ICU admission,years,MIMIC-IV derived age
+landmark_h,shared/Model A,Elapsed time from ICU admission to landmark,hours,derived from ICU intime
+landmark_h_sq,shared/Model A,Squared landmark hour,hours squared,derived
+n_cpo_history_4h,shared/Model A,"Number of CPO measurements in (L-4 h, L]",count,derived from chart events
+n_mpap_history_4h,shared/Model A,"Number of mPAP measurements in (L-4 h, L]",count,derived from chart events
+n_svo2_history_4h,shared/Model A,"Number of SvO2 measurements in (L-4 h, L]",count,derived from chart events
+cpo_recency_h,shared/Model A,Time since most recent CPO measurement at L,hours,derived from chart events
+mpap_recency_h,shared/Model A,Time since most recent mPAP measurement at L,hours,derived from chart events
+svo2_recency_h,shared/Model A,Time since most recent SvO2 measurement at L,hours,derived from chart events
+iabp_active_at_landmark,shared/Model A,Intra-aortic balloon pump active at L,binary,procedure/device evidence available by L
+drug_norepinephrine_active_at_landmark,shared/Model A,Norepinephrine infusion active at L,binary,ICU input events
+drug_epinephrine_active_at_landmark,shared/Model A,Epinephrine infusion active at L,binary,ICU input events
+drug_vasopressin_active_at_landmark,shared/Model A,Vasopressin infusion active at L,binary,ICU input events
+drug_phenylephrine_active_at_landmark,shared/Model A,Phenylephrine infusion active at L,binary,ICU input events
+drug_dopamine_active_at_landmark,shared/Model A,Dopamine infusion active at L,binary,ICU input events
+drug_dobutamine_active_at_landmark,shared/Model A,Dobutamine infusion active at L,binary,ICU input events
+drug_milrinone_active_at_landmark,shared/Model A,Milrinone infusion active at L,binary,ICU input events
+cpo_current,shared/Model A,"Most recent CPO in (L-4 h, L]; CPO eligibility additionally requires recency <=1 h",W,CCO item 224842 and concurrent MAP items 220052/225312/220181; CPO=CCO×MAP/451
+cpo_mean_4h,Model B addition,"Mean CPO in (L-4 h, L]",W,CCO item 224842 and concurrent MAP items 220052/225312/220181; CPO=CCO×MAP/451
+cpo_min_4h,Model B addition,"Minimum CPO in (L-4 h, L]",W,CCO item 224842 and concurrent MAP items 220052/225312/220181; CPO=CCO×MAP/451
+cpo_max_4h,Model B addition,"Maximum CPO in (L-4 h, L]",W,CCO item 224842 and concurrent MAP items 220052/225312/220181; CPO=CCO×MAP/451
+cpo_sd_4h,Model B addition,"Population standard deviation of CPO in (L-4 h, L]",W,CCO item 224842 and concurrent MAP items 220052/225312/220181; CPO=CCO×MAP/451
+cpo_slope_4h,Model B addition,"Linear time slope of CPO in (L-4 h, L]",W/h,CCO item 224842 and concurrent MAP items 220052/225312/220181; CPO=CCO×MAP/451
+cpo_delta_4h,Model B addition,"Last minus first CPO in (L-4 h, L]",W,CCO item 224842 and concurrent MAP items 220052/225312/220181; CPO=CCO×MAP/451
+cpo_span_4h,Model B addition,"Elapsed time from first to last CPO in (L-4 h, L]",hours,CCO item 224842 and concurrent MAP items 220052/225312/220181; CPO=CCO×MAP/451
+mpap_current,Model C addition,"Most recent mPAP in (L-4 h, L]; CPO eligibility additionally requires recency <=1 h",mmHg,mPAP item 220061
+mpap_mean_4h,Model C addition,"Mean mPAP in (L-4 h, L]",mmHg,mPAP item 220061
+mpap_min_4h,Model C addition,"Minimum mPAP in (L-4 h, L]",mmHg,mPAP item 220061
+mpap_max_4h,Model C addition,"Maximum mPAP in (L-4 h, L]",mmHg,mPAP item 220061
+mpap_sd_4h,Model C addition,"Population standard deviation of mPAP in (L-4 h, L]",mmHg,mPAP item 220061
+mpap_slope_4h,Model C addition,"Linear time slope of mPAP in (L-4 h, L]",mmHg/h,mPAP item 220061
+mpap_delta_4h,Model C addition,"Last minus first mPAP in (L-4 h, L]",mmHg,mPAP item 220061
+mpap_span_4h,Model C addition,"Elapsed time from first to last mPAP in (L-4 h, L]",hours,mPAP item 220061
+svo2_current,Model C addition,"Most recent SvO2 in (L-4 h, L]; CPO eligibility additionally requires recency <=1 h",%,SvO2 item 223772
+svo2_mean_4h,Model C addition,"Mean SvO2 in (L-4 h, L]",%,SvO2 item 223772
+svo2_min_4h,Model C addition,"Minimum SvO2 in (L-4 h, L]",%,SvO2 item 223772
+svo2_max_4h,Model C addition,"Maximum SvO2 in (L-4 h, L]",%,SvO2 item 223772
+svo2_sd_4h,Model C addition,"Population standard deviation of SvO2 in (L-4 h, L]",%,SvO2 item 223772
+svo2_slope_4h,Model C addition,"Linear time slope of SvO2 in (L-4 h, L]",%/h,SvO2 item 223772
+svo2_delta_4h,Model C addition,"Last minus first SvO2 in (L-4 h, L]",%,SvO2 item 223772
+svo2_span_4h,Model C addition,"Elapsed time from first to last SvO2 in (L-4 h, L]",hours,SvO2 item 223772
+gender,shared/Model A,Recorded administrative sex,category,hosp/patients
+first_careunit,shared/Model A,First ICU care unit,category,icu/icustays

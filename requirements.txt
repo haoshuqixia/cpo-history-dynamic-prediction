@@ -1,0 +1,9 @@
+# Verified statistical rerun environment: Python 3.12.14
+numpy==2.5.2
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.0
+joblib==1.5.3
+matplotlib==3.11.1
+# Optional Word-generation dependency: python-docx (version not yet frozen).
+# Install/test only after the original document-builder environment is resolved.

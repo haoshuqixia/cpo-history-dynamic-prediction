@@ -1,0 +1,264 @@
+{
+  "lock_version": "1.0",
+  "status": "AUTHOR_REQUESTED_FIGURE_LOCK_ONLY",
+  "date": "2026-09-29",
+  "external_endpoint": "discharge-boundary R1",
+  "external_landmarks": 7753,
+  "external_brier_labels": [
+    "0.04882",
+    "0.04747"
+  ],
+  "not_a_public_code_release": true,
+  "artifacts": {
+    "Graphical_Abstract": {
+      "source_version": "V5 reviewed blue/navy/gold",
+      "files": {
+        "png": {
+          "file": "png/Graphical_Abstract.png",
+          "sha256": "3dd37500f40733b32fa4e7bbe7d002be576ff8ab8fc6c2068502163770d84c3e"
+        },
+        "pdf": {
+          "file": "vector/Graphical_Abstract.pdf",
+          "sha256": "345dda5b1b2cbc99e3078866f49f78c4dc5ffa15020b407490afea0ec255754e"
+        },
+        "svg": {
+          "file": "vector/Graphical_Abstract.svg",
+          "sha256": "ac49afaff25289f4531f5ddcdd76f76922cf7a5df6cdf25f08d39fd922e62508"
+        }
+      },
+      "pixels": [
+        4251,
+        2952
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figure_1": {
+      "source_version": "V1 reference style",
+      "files": {
+        "png": {
+          "file": "png/Figure_1.png",
+          "sha256": "405319d0eada28630530143df91a9d661758f204a97596fa5c493e1cce0b290e"
+        },
+        "pdf": {
+          "file": "vector/Figure_1.pdf",
+          "sha256": "f392bfd8a66fb427e0d964b5359700a086836e1913f36c308bf17d9715436f35"
+        },
+        "svg": {
+          "file": "vector/Figure_1.svg",
+          "sha256": "1a8c58cf5313273f10f4b3af09c908119b4e427a0080fc457649b1f92acadd62"
+        }
+      },
+      "pixels": [
+        4365,
+        4365
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figure_2": {
+      "source_version": "V1 reference style",
+      "files": {
+        "png": {
+          "file": "png/Figure_2.png",
+          "sha256": "9a3639493868fabfe700cf81383fd5475fc8ff3d195fde6f21137ebb6cf7d7f4"
+        },
+        "pdf": {
+          "file": "vector/Figure_2.pdf",
+          "sha256": "5f29a8cdb7937cd82791404b4b6d431054553a6793a25f4aff011d198f91dfe3"
+        },
+        "svg": {
+          "file": "vector/Figure_2.svg",
+          "sha256": "ff88753eb2d64043c25a5b31ea7be2656f181273f3a58cf035cfe3de11fe4987"
+        }
+      },
+      "pixels": [
+        4474,
+        3574
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figure_3": {
+      "source_version": "V1 reference style",
+      "files": {
+        "png": {
+          "file": "png/Figure_3.png",
+          "sha256": "7b85cfddc8e0132d6d3e089b1ab6f4a089ab42b42e5f612a064fd63c5f71bd73"
+        },
+        "pdf": {
+          "file": "vector/Figure_3.pdf",
+          "sha256": "cb76305af59614f9c3cf7b998a511ca8d6cf45151a9a60cfce08b3a02eddc52e"
+        },
+        "svg": {
+          "file": "vector/Figure_3.svg",
+          "sha256": "cfcc042bcf3b7dba5717ee29d6eebe773b392e4a79fea6c243e26db94b2738f1"
+        }
+      },
+      "pixels": [
+        4834,
+        3339
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figure_4": {
+      "source_version": "V1 reference style",
+      "files": {
+        "png": {
+          "file": "png/Figure_4.png",
+          "sha256": "7c344193b0d7e2b792152f475544295c933a1805b59aa0fa9dad470bb931f812"
+        },
+        "pdf": {
+          "file": "vector/Figure_4.pdf",
+          "sha256": "f9db31cb085e77a4efe66f9132621235b0b8c8b0834d2505deecdb03d769872d"
+        },
+        "svg": {
+          "file": "vector/Figure_4.svg",
+          "sha256": "25345e6f43b9d5c17825cf129cbacd3b3895bca968746ddac3cb3fff7442b636"
+        }
+      },
+      "pixels": [
+        4443,
+        3480
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figure_S1": {
+      "source_version": "V1 reference style",
+      "files": {
+        "png": {
+          "file": "png/Figure_S1.png",
+          "sha256": "6163b4ba990b2d26f51ffc93275ae52e3ebfaaed6f0e60650b185eceea1347f9"
+        },
+        "pdf": {
+          "file": "vector/Figure_S1.pdf",
+          "sha256": "4381189a4e8551a02dabb19699edfe3a72486d6b7cbf16ebbb03022c97bfa59e"
+        },
+        "svg": {
+          "file": "vector/Figure_S1.svg",
+          "sha256": "a9d561f8e7194fbdcf02a12c8fde5bb7f22dba4927993e41c73ffedb5838fff7"
+        }
+      },
+      "pixels": [
+        4359,
+        2619
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figure_S2": {
+      "source_version": "V1 reference style",
+      "files": {
+        "png": {
+          "file": "png/Figure_S2.png",
+          "sha256": "f6b22e214d3b8bf6dd3520338e6e77e8ee5e841d6167d9ac10f76df1c4408037"
+        },
+        "pdf": {
+          "file": "vector/Figure_S2.pdf",
+          "sha256": "a0b4b70d17b9af820272ecf2b696d3d58d05b86b4c3b05778fb427892b4bbb02"
+        },
+        "svg": {
+          "file": "vector/Figure_S2.svg",
+          "sha256": "9b4185f32a1617fd4cf653ce246c2043e501378c2b8d7285b8535f5140970e2c"
+        }
+      },
+      "pixels": [
+        4359,
+        2096
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Figure_S3": {
+      "source_version": "V1 reference style",
+      "files": {
+        "png": {
+          "file": "png/Figure_S3.png",
+          "sha256": "6d4dda602f163129233c3eabc86adbfec60085be385a529882f8c4c809ade69e"
+        },
+        "pdf": {
+          "file": "vector/Figure_S3.pdf",
+          "sha256": "68761ff8f45b32652393baf32530eb76ab6a43a3012d6373648d45f6f3055f3c"
+        },
+        "svg": {
+          "file": "vector/Figure_S3.svg",
+          "sha256": "8182a59672ed54c5d481e9a0c28208606b9d1a9419fb429a3964cf187abf52fe"
+        }
+      },
+      "pixels": [
+        4359,
+        1239
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Table_1": {
+      "source_version": "V1 reference style",
+      "files": {
+        "png": {
+          "file": "png/Table_1.png",
+          "sha256": "f5f67b2c5a779fa490fff1df8017cb42f4197566dbd7698ce3ded4f1558daf5c"
+        },
+        "pdf": {
+          "file": "vector/Table_1.pdf",
+          "sha256": "1a00cb6637e5a8053d722a21cb6526076ffeacc9325b6116c09e26e1afab79ac"
+        },
+        "svg": {
+          "file": "vector/Table_1.svg",
+          "sha256": "cfcc3d8f4bc16862d09305879e18ce0f2c28271a99937d8a4ee3e82127d541ed"
+        }
+      },
+      "pixels": [
+        5551,
+        4913
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    "Table_2": {
+      "source_version": "V1 reference style",
+      "files": {
+        "png": {
+          "file": "png/Table_2.png",
+          "sha256": "3691279552b79b2220e5d5127c96c57ae323c278fd3477e7fe8bd54fbeee570b"
+        },
+        "pdf": {
+          "file": "vector/Table_2.pdf",
+          "sha256": "a6aab0d81062e9669814a93dd5a8485e771c20bf69fb4fd5955d74949a124407"
+        },
+        "svg": {
+          "file": "vector/Table_2.svg",
+          "sha256": "0c5add4afd2ec6613b6ac24b2d46d313cfd9c38123c064fb7f4a03d4ce8fe0da"
+        }
+      },
+      "pixels": [
+        4960,
+        3472
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  }
+}

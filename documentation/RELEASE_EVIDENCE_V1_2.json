@@ -1,0 +1,233 @@
+{
+  "software_version": "1.0.0",
+  "release_gate_revision": "V1.2",
+  "date": "2026-09-29",
+  "numerical_files": 85,
+  "passed": 85,
+  "audits": [
+    {
+      "check": "MIMIC observation patient folds",
+      "status": "PASS",
+      "rows": 30577,
+      "groups": 1646,
+      "folds": 5
+    },
+    {
+      "check": "MIMIC clinical-model patient folds",
+      "status": "PASS",
+      "rows": 21619,
+      "groups": 1544,
+      "folds": 5
+    },
+    {
+      "check": "eICU observation hospital folds",
+      "status": "PASS",
+      "rows": 12971,
+      "groups": 32,
+      "folds": 5
+    },
+    {
+      "check": "Clinical preprocessing inside folds and development-only OOF calibration (source audit)",
+      "status": "PASS"
+    },
+    {
+      "check": "MIMIC primary-clock history summaries independently reconstructed from (L-4,L]",
+      "status": "PASS",
+      "numeric_cells": 920360,
+      "max_abs_difference": 9.892772627031946e-12,
+      "slope_absolute_arithmetic_tolerance": 1e-10
+    },
+    {
+      "check": "eICU history summaries independently reconstructed using measurement and availability clocks <=L",
+      "status": "PASS",
+      "numeric_cells": 253784
+    },
+    {
+      "check": "Final eICU R1 denominators",
+      "status": "PASS",
+      "landmarks": 7753,
+      "patients": 840,
+      "stays": 850,
+      "hospitals": 27,
+      "event_landmarks": 469,
+      "event_patients": 157
+    }
+  ],
+  "supplement_tables": {
+    "S1": {
+      "total": 30,
+      "pass": 30
+    },
+    "S2": {
+      "total": 301,
+      "pass": 301
+    },
+    "S3": {
+      "total": 24,
+      "pass": 24
+    },
+    "S4": {
+      "total": 16,
+      "pass": 16
+    },
+    "S5": {
+      "total": 56,
+      "pass": 56
+    },
+    "S6": {
+      "total": 88,
+      "pass": 88
+    },
+    "S7": {
+      "total": 30,
+      "pass": 30
+    },
+    "S8": {
+      "total": 35,
+      "pass": 35
+    }
+  },
+  "main_tables": {
+    "Table 1": {
+      "pass": 72,
+      "total": 72
+    },
+    "Table 2": {
+      "pass": 36,
+      "total": 36
+    }
+  },
+  "figure_png_identity": {
+    "pass": 10,
+    "total": 10
+  },
+  "main_figure_RGB_identity": [
+    {
+      "name": "Figure_1",
+      "exact_RGB_pixels_match_fresh_R1_render": true,
+      "size": [
+        4365,
+        4365
+      ]
+    },
+    {
+      "name": "Figure_2",
+      "exact_RGB_pixels_match_fresh_R1_render": true,
+      "size": [
+        4474,
+        3574
+      ]
+    },
+    {
+      "name": "Figure_3",
+      "exact_RGB_pixels_match_fresh_R1_render": true,
+      "size": [
+        4834,
+        3339
+      ]
+    },
+    {
+      "name": "Figure_4",
+      "exact_RGB_pixels_match_fresh_R1_render": true,
+      "size": [
+        4443,
+        3480
+      ]
+    }
+  ],
+  "main_manuscript_sha256": "d62f3b82c3555dd0628f0458d1d4b36cd94ccfdffea9d81cdbd97b889b2292cb",
+  "numeric_prose_corrections": [
+    {
+      "section": "Abstract Results",
+      "paragraph_index": 27,
+      "old": "0.04881",
+      "new": "0.04882"
+    },
+    {
+      "section": "Abstract Results",
+      "paragraph_index": 27,
+      "old": "0.04746",
+      "new": "0.04747"
+    },
+    {
+      "section": "External validation Results",
+      "paragraph_index": 80,
+      "old": "0.04881",
+      "new": "0.04882"
+    },
+    {
+      "section": "External validation Results",
+      "paragraph_index": 80,
+      "old": "0.04746",
+      "new": "0.04747"
+    },
+    {
+      "section": "External validation Results",
+      "paragraph_index": 80,
+      "old": "0.2792",
+      "new": "0.2793"
+    },
+    {
+      "section": "External validation Results",
+      "paragraph_index": 80,
+      "old": "+0.0622",
+      "new": "+0.0623"
+    }
+  ],
+  "known_runtime_whitelist_setup_events": 8,
+  "unexpected_dependency_events_observed": 0,
+  "access_audit_scope": "Python open + absolute subprocess argument audit, not universal OS/C syscall tracing",
+  "unchanged_python_files_except_preflight_validator": [
+    "01_cohort_construction/STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/aggregate.py",
+    "01_cohort_construction/STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/cohort.py",
+    "01_cohort_construction/STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/common.py",
+    "01_cohort_construction/STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/extract.py",
+    "01_cohort_construction/STAGE_MINUS1A_CV_OBSERVABILITY_V1/code/pairing.py",
+    "03_landmark_generation/CV_PAC_CPO_LANDMARK_AUDIT_20260908/code/run_landmark_audit.py",
+    "04_predictor_construction/CV_PAC_CPO_STAGE1A_FEATURE_AND_CENSORING_20260908/code/run_stage1a.py",
+    "05_outcome_and_ipow/CV_PAC_CPO_STAGE0_MECHANISM_20260908/code/build_landmark_dataset_v1.py",
+    "05_outcome_and_ipow/CV_PAC_CPO_STAGE0_MECHANISM_20260908/code/run_stage0_mechanism_audit.py",
+    "05_outcome_and_ipow/CV_PAC_CPO_STAGE0_MECHANISM_20260908/code/summarize_stage0.py",
+    "06_model_development/CV_PAC_CPO_PAPER_PACKAGE_20260908/code/export_locked_models.py",
+    "06_model_development/CV_PAC_CPO_STAGE1B_ABC_TEMPORAL_20260908/code/run_stage1b.py",
+    "07_temporal_validation/CV_PAC_CPO_STAGE1C_EARLY_WARNING_AUDIT_20260908/code/run_stage1c.py",
+    "07_temporal_validation/CV_PAC_CPO_STAGE1D_ALERT_UTILITY_20260908/code/run_stage1d.py",
+    "08_eicu_external_validation/CPO_EICU_EXTERNAL_DISCHARGE_BOUNDARY_R1_V1_0/run_eicu_r1.py",
+    "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e0.py",
+    "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e1a_medication_audit.py",
+    "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e1b.py",
+    "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e1b_remediation.py",
+    "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_e2.py",
+    "08_eicu_external_validation/CV_PAC_CPO_EICU_STAGE_EMINUS1_20260909/code/run_eicu_stage_eminus1.py",
+    "09_sensitivity_analyses/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_information_clock_audit.py",
+    "09_sensitivity_analyses/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_stage_r2_robustness.py",
+    "09_sensitivity_analyses/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_stage_r3_sensitivity_counts.py",
+    "09_sensitivity_analyses/CV_PAC_CPO_REVIEWER_DEFENSE_20260908/code/run_storetime_ab_sensitivity.py",
+    "10_figures_tables/CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_predictor_dictionary.py",
+    "10_figures_tables/CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_result_tables.py",
+    "10_figures_tables/CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_reviewer_defense_tables.py",
+    "10_figures_tables/CV_PAC_CPO_PAPER_PACKAGE_20260908/code/build_tables.py",
+    "10_figures_tables/EHJACC_FIGURES/scripts/gen_figure2_cohort_flow.py",
+    "10_figures_tables/EHJACC_FIGURES/scripts/gen_figure3_incremental_value.py",
+    "10_figures_tables/EHJACC_FIGURES/scripts/gen_figure4_clinical_interpretability.py",
+    "10_figures_tables/EHJACC_FIGURES/scripts/gen_figure5_external_validation.py",
+    "10_figures_tables/EHJACC_FIGURES/scripts/generate_ehjacc_figures.py",
+    "10_figures_tables/build_submission_supplement_r1.py",
+    "10_figures_tables/locked/ga_base.py",
+    "10_figures_tables/locked/graphical_abstract.py",
+    "10_figures_tables/locked/locked_style.py",
+    "10_figures_tables/reproduce_main_table_cells.py",
+    "regenerate_final_figures.py",
+    "run_workflow.py",
+    "validate_figures.py",
+    "validate_reproduction.py"
+  ],
+  "source_rerun_archive_sha256": "bf09cc6f2de7379212c1f29f2fe988e884846321538b428d908218473d70940a",
+  "private_work_and_patient_data_bundled": false,
+  "editorial_notes_not_part_of_code_seal": [
+    "Supplement title lacks output",
+    "Supplement source-data wording should distinguish public aggregate from private patient-level data",
+    "Embedded Supplement preview lettering review",
+    "Word embedded GA is reduced-resolution preview"
+  ]
+}
