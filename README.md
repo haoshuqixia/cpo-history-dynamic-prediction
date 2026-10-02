@@ -1,30 +1,39 @@
 # Recent CPO history and short-term low-CPO prediction
 
-**Software version 1.0.0 — PUBLIC CODE REPOSITORY — MIT — TAG/RELEASE PENDING.**
+**Software version 1.0.0 — PUBLIC CODE RELEASE AVAILABLE — MIT.**
 
 Repository: https://github.com/haoshuqixia/cpo-history-dynamic-prediction
 
-Anonymous public access was verified on 2026-09-29. The initial uploaded
-commit contains all 74 files of the sealed local payload without byte changes.
-The post-upload metadata update is prepared separately; its remote content
-must be checked after upload. No v1.0.0 tag, GitHub Release or Zenodo DOI has
-been created by this update.
+Public release **v1.0.0** is available:
+https://github.com/haoshuqixia/cpo-history-dynamic-prediction/releases/tag/v1.0.0
+
+The existing v1.0.0 tag and release are retained as the historical code snapshot.
+The main branch includes manuscript-title and publication-metadata updates for
+the IJMI submission. These README edits do not change analytical or drawing code,
+model specifications, statistical results, or the existing release tag.
 
 Release-gate revision: V1.2 (2026-09-29). V1.0/V1.1 were local draft revisions,
-not public software tags. See `documentation/RELEASE_STATUS.json` and
-`documentation/PUBLIC_METADATA_QA_V1_0.md` for current publication scope.
-`documentation/CPO_CODE_RELEASE_QA_V1_2.md` is the historical local-seal evidence.
+not public software tags. The V1.2 release-gate and pre-release metadata records
+in `documentation/` are historical audit evidence. Statements in those records
+that the tag/release was pending describe the pre-release state, not the current
+public release status.
 
-Code supporting the manuscript prepared for European Heart Journal – Acute
-Cardiovascular Care:
+Code supporting the manuscript prepared for submission to the
+**International Journal of Medical Informatics** (IJMI):
 
-*Recent cardiac power output history improves six-hour prediction of low-CPO
-episodes during pulmonary artery catheter monitoring*
+*Incremental value of recent cardiac power output history for dynamic 6-h
+prediction of low-CPO episodes during pulmonary artery catheter monitoring:
+temporal and multicentre external validation*
 
 Authors: Zhihao Lin; Tangjiang Wan; Wenyue Lv; Shitong Shen; Luyang Wu;
 Yafei Li. Corresponding author: Yafei Li. No equal-contribution designation.
 
-## What is locked
+## Historical locked analysis and reporting outputs
+
+The output identities below describe the historical local reporting lock.
+The current IJMI submission documents are maintained separately; editorial
+changes to their titles, legends, and checklist pagination do not change the
+frozen statistical analysis.
 
 - Graphical Abstract: reviewed blue/navy/gold V5 with real frozen ROC/Brier results.
 - Main Figures 1–4, Supplementary Figures S1–S3 and Tables 1–2: reference-style V1.
@@ -32,7 +41,8 @@ Yafei Li. Corresponding author: Yafei Li. No equal-contribution designation.
   27 hospitals. External Brier labels: **0.04882 / 0.04747**, not the superseded values.
 - The 25 core statistical modules and all 10_figures_tables drawing modules are
   byte-for-byte unchanged from the successfully relocated V1.1 code candidate.
-  This final update changes only licence, release documentation and QA metadata.
+  The V1.2 release-gate update changed only licence, release documentation and
+  QA metadata; the present README revision updates publication metadata.
 
 `documentation/FIGURE_LOCK.json` records the 10 approved output identities
 (PNG/PDF/SVG), nominal raster sizes and provenance. Approved images are in the
@@ -114,7 +124,8 @@ provisioned python-docx environment; it is not needed to reproduce statistics.
 - Model B: Model A plus recent 4-h CPO mean, minimum, maximum, SD, slope,
   first-to-last change and span over `(L−4 h, L]`.
 - Model C: Model B plus latest and 4-h mPAP/SvO2 summaries; secondary comparison.
-- Horizon `(L, L+6 h]`; confirmed/repeated low CPO: two CPO values <0.60 W,
+- Horizon `(L, L+6 h]`; low-CPO episode confirmed by repeated measurements:
+  two CPO values <0.60 W,
   separated by 0.5–3 h. Dense-negative rule: ≥4 future measurements, last ≥L+5 h,
   maximum gap ≤2 h including current-to-future gap.
 - Charttime primary; storetime strict sensitivity. Primary charttime is not
@@ -129,7 +140,8 @@ See `LICENSE`. Dependencies retain their own licences. This code licence does
 not license or distribute MIMIC/eICU source data, patient-level derivatives,
 trained models, or third-party database rights.
 
-Local technical/publication-payload gates passed. The corrected main manuscript
+The historical V1.2 local technical/publication-payload gates passed. The
+manuscript checked in that audit
 matches 72/72 Table 1 and 36/36 Table 2 numeric cells; six stale prose metric
 labels were corrected in a separate Word copy, not by the statistical pipeline.
 Supplementary Tables S1–S8 were checked against fresh outputs (580 table cells,
@@ -147,10 +159,14 @@ logs, notebook cache, database dump or trained-model files are included.
 Automated safety scans are scoped preflight, not a guarantee of detecting
 every possible secret or a substitute for author rights confirmation.
 
-`SHA256SUMS.txt` and `CPO_CODE_RELEASE_SHA256_V1_2.txt` are identical and cover
-every payload file except those two checksum lists. The manifest omits itself
-and the two checksum lists to avoid circular hashing; its own hash is included
-in both checksum lists. Prior draft QA is marked historical and superseded.
+The historical V1.2 checksum lists, `SHA256SUMS.txt` and
+`CPO_CODE_RELEASE_SHA256_V1_2.txt`, were identical and covered every payload file
+except those two checksum lists. The manifest omitted itself and the checksum
+lists to avoid circular hashing; its own hash was included in both lists.
+These historical checksums must not be used to claim byte identity for later
+main-branch metadata edits. Updated metadata needs a corresponding regenerated
+manifest and checksum record. Historical release files and their audit records
+should not be overwritten or retagged. Prior draft QA is historical and superseded.
 
 ## Code availability
 
@@ -162,6 +178,7 @@ The repository contains analysis code, variable definitions and reproducibility
 instructions. Raw or patient-level MIMIC-IV and eICU data are not redistributed
 in accordance with the relevant PhysioNet data-use agreements.
 
-The repository is public, but the formal v1.0.0 software tag/release remains
-pending. No Zenodo DOI is assigned. Local preflight does not verify whether
-the latest metadata has reached GitHub; verify the uploaded commit before tagging.
+Public release **v1.0.0** is available at the release link above. The main branch
+may contain subsequent publication-metadata edits; use the existing v1.0.0 tag
+for the frozen public code snapshot. This README does not claim a Zenodo DOI or
+that the manuscript has been accepted or published.
