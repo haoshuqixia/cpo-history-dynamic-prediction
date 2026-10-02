@@ -37,7 +37,8 @@
   "manuscript_basis": "Manuscript_numbers_corrected.docx",
   "manuscript_sha256": "d62f3b82c3555dd0628f0458d1d4b36cd94ccfdffea9d81cdbd97b889b2292cb",
   "manuscript_basis_scope": "Historical manuscript used for the V1.2 audit; the filename and SHA-256 above do not identify the current IJMI submission manuscript.",
-  "main_branch_metadata_checksum_status": "REGENERATION_REQUIRED_AFTER_METADATA_EDITS",
+  "main_branch_metadata_checksum_status": "REGENERATED_LOCAL_CANDIDATE_PENDING_UPLOAD_VERIFICATION",
+  "main_branch_metadata_checksum_scope": "Manifest and checksum lists regenerated for the complete local IJMI metadata candidate. Public-main byte identity must be independently verified after upload; historical v1.0.0 tag and release files are not overwritten.",
   "seal_scope": "Historical sealed code-only payload and initial public-repository audit. Public release v1.0.0 exists and its tag is preserved. Subsequent main-branch publication-metadata edits are outside the historical byte-identity seal.",
   "whole_manuscript_submission_compliance": "NOT_CERTIFIED"
 }

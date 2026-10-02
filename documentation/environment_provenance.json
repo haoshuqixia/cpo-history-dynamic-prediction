@@ -24,7 +24,10 @@
     }
   },
   "licence": "MIT",
-  "manuscript_title": "Recent cardiac power output history improves six-hour prediction of low-CPO episodes during pulmonary artery catheter monitoring",
+  "historical_rerun_manuscript_title": "Recent cardiac power output history improves six-hour prediction of low-CPO episodes during pulmonary artery catheter monitoring",
+  "manuscript_title": "Incremental value of recent cardiac power output history for dynamic 6-h prediction of low-CPO episodes during pulmonary artery catheter monitoring: temporal and multicentre external validation",
+  "publication_metadata_updated_date": "2026-10-02",
+  "metadata_update_scope": "Publication title and release status only. The original freeze and verified rerun environments, dates and validation counts remain historical audit records; no new statistical rerun is claimed.",
   "authors": ["Zhihao Lin", "Tangjiang Wan", "Wenyue Lv", "Shitong Shen", "Luyang Wu", "Yafei Li"],
   "corresponding_author": "Yafei Li",
   "equal_contribution": null,
@@ -33,5 +36,6 @@
   "analysis_stages_passed": 27,
   "numerical_reference_files_passed": 85,
   "table1_numeric_cells_passed": 72,
-  "status": "SEALED_PUBLIC_CODE_RELEASE_PENDING_TAG"
+  "historical_pre_release_status": "SEALED_PUBLIC_CODE_RELEASE_PENDING_TAG",
+  "status": "SEALED_PUBLIC_CODE_RELEASED"
 }

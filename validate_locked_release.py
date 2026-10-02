@@ -62,17 +62,23 @@ def main():
     assert status["publicly_published"] is True
     repository_url = "https://github.com/haoshuqixia/cpo-history-dynamic-prediction"
     assert status["github_url"] == repository_url and status["public_access_verified"] is True
-    assert status["code_release"] == "SEALED_PUBLIC_CODE_RELEASE_PENDING_TAG"
-    assert status["formal_release_published"] is False and status["release_tag"] is None
+    assert status["code_release"] == "SEALED_PUBLIC_CODE_RELEASED"
+    assert status["formal_release_published"] is True and status["release_tag"] == "v1.0.0"
+    assert status["release_url"] == f"{repository_url}/releases/tag/v1.0.0"
+    assert status["existing_release_tag_preserved"] is True
+    assert status["main_branch_metadata_checksum_status"] == "REGENERATED_LOCAL_CANDIDATE_PENDING_UPLOAD_VERIFICATION"
     assert status["zenodo_doi"] is None
     assert re.fullmatch(r"[0-9a-f]{40}", status["public_access_verified_commit"])
     provenance = json.loads((ROOT / "documentation/environment_provenance.json").read_text())
     assert provenance["public_repository"] == repository_url
     assert provenance["licence"] == status["licence"]
     assert provenance["status"] == status["code_release"]
+    assert provenance["manuscript_title"] == status["current_manuscript_title"]
     citation = (ROOT / "CITATION.cff").read_text()
     assert f'repository-code: "{repository_url}"' in citation
     assert "license: MIT" in citation and 'version: "1.0.0"' in citation
+    assert f'title: "{status["current_manuscript_title"]}"' in citation
+    assert f'url: "{status["release_url"]}"' in citation
     readme = (ROOT / "README.md").read_text()
     assert repository_url in readme and "NOT YET UPLOADED" not in readme
     assert status["core_statistical_modules_unchanged"] == len(analysis["files"])
@@ -89,7 +95,7 @@ def main():
     print(f"PASS: {len(files)} reviewed text/code files; {len(analysis['files'])} unchanged statistical modules")
     print("PASS: syntax, recorded checksums and automated path/credential/data-file preflight")
     print("PASS: author-confirmed MIT licence and complete payload checksum inventory")
-    print("PASS: consistent public URL, MIT and pending-tag metadata; no DOI/release claim")
+    print("PASS: consistent public URL, MIT, v1.0.0 release metadata and IJMI manuscript title")
     print(f"{status['code_release']}; LOCAL PREFLIGHT ONLY / LIVE METADATA SYNC NOT CHECKED")
 
 

@@ -159,14 +159,17 @@ logs, notebook cache, database dump or trained-model files are included.
 Automated safety scans are scoped preflight, not a guarantee of detecting
 every possible secret or a substitute for author rights confirmation.
 
-The historical V1.2 checksum lists, `SHA256SUMS.txt` and
-`CPO_CODE_RELEASE_SHA256_V1_2.txt`, were identical and covered every payload file
-except those two checksum lists. The manifest omitted itself and the checksum
-lists to avoid circular hashing; its own hash was included in both lists.
-These historical checksums must not be used to claim byte identity for later
-main-branch metadata edits. Updated metadata needs a corresponding regenerated
-manifest and checksum record. Historical release files and their audit records
-should not be overwritten or retagged. Prior draft QA is historical and superseded.
+On the main branch, `CPO_CODE_RELEASE_MANIFEST_V1_2.csv`, `SHA256SUMS.txt`, and
+`CPO_CODE_RELEASE_SHA256_V1_2.txt` are regenerated for the current IJMI metadata
+candidate. Their legacy filenames are retained for validator compatibility;
+they do not mean that the historical V1.2 audit or v1.0.0 tag was rerun or changed.
+Both checksum lists are identical and cover every payload file except the two
+checksum lists. The manifest omits itself and the checksum lists to avoid
+circular hashing; its own hash is included in both checksum lists.
+Use the unchanged v1.0.0 tag to retrieve the historical checksum records.
+The local candidate passed checksum and metadata preflight; public-main byte
+identity must still be checked after upload. This is not a new model run or
+certification of the whole manuscript submission. Prior draft QA is historical.
 
 ## Code availability
 
