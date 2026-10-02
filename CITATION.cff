@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "Please cite this software and the associated manuscript when using this code. The code repository is public; the formal v1.0.0 tag/release is pending."
+message: "Please cite this software when using the code. Public release v1.0.0 is available. The associated manuscript is being prepared for submission to the International Journal of Medical Informatics."
 type: software
-title: "Recent cardiac power output history improves six-hour prediction of low-CPO episodes during pulmonary artery catheter monitoring"
+title: "Incremental value of recent cardiac power output history for dynamic 6-h prediction of low-CPO episodes during pulmonary artery catheter monitoring: temporal and multicentre external validation"
 authors:
   - family-names: "Lin"
     given-names: "Zhihao"
@@ -18,7 +18,10 @@ authors:
 version: "1.0.0"
 license: MIT
 repository-code: "https://github.com/haoshuqixia/cpo-history-dynamic-prediction"
+url: "https://github.com/haoshuqixia/cpo-history-dynamic-prediction/releases/tag/v1.0.0"
+
 # Corresponding author for the manuscript: Yafei Li.
 # Copyright: 2026, the six authors listed above (CPO study author team).
-# DOI and date-released are omitted until publicly assigned; no tag/release is claimed.
+# Publication metadata updated on main; the existing v1.0.0 tag is unchanged.
+# No manuscript acceptance, publication, or DOI is claimed.
 # No equal-contribution claim is made.
