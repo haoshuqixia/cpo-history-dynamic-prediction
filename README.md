@@ -9,8 +9,9 @@ https://github.com/haoshuqixia/cpo-history-dynamic-prediction/releases/tag/v1.0.
 
 The existing v1.0.0 tag and release are retained as the historical code snapshot.
 The main branch includes manuscript-title and publication-metadata updates for
-the IJMI submission. These README edits do not change analytical or drawing code,
-model specifications, statistical results, or the existing release tag.
+the Scientific Reports submission.
+These publication-metadata updates do not alter the frozen analysis code, model
+specifications, statistical results, or the existing v1.0.0 release.
 
 Release-gate revision: V1.2 (2026-09-29). V1.0/V1.1 were local draft revisions,
 not public software tags. The V1.2 release-gate and pre-release metadata records
@@ -19,11 +20,10 @@ that the tag/release was pending describe the pre-release state, not the current
 public release status.
 
 Code supporting the manuscript prepared for submission to the
-**International Journal of Medical Informatics** (IJMI):
+**Scientific Reports**:
 
-*Incremental value of recent cardiac power output history for dynamic 6-h
-prediction of low-CPO episodes during pulmonary artery catheter monitoring:
-temporal and multicentre external validation*
+*Recent cardiac power output history improves 6-hour prediction of low-CPO
+episodes during pulmonary artery catheter monitoring*
 
 Authors: Zhihao Lin; Tangjiang Wan; Wenyue Lv; Shitong Shen; Luyang Wu;
 Yafei Li. Corresponding author: Yafei Li. No equal-contribution designation.
@@ -31,7 +31,7 @@ Yafei Li. Corresponding author: Yafei Li. No equal-contribution designation.
 ## Historical locked analysis and reporting outputs
 
 The output identities below describe the historical local reporting lock.
-The current IJMI submission documents are maintained separately; editorial
+The current Scientific Reports submission documents are maintained separately; editorial
 changes to their titles, legends, and checklist pagination do not change the
 frozen statistical analysis.
 
@@ -160,16 +160,14 @@ Automated safety scans are scoped preflight, not a guarantee of detecting
 every possible secret or a substitute for author rights confirmation.
 
 On the main branch, `CPO_CODE_RELEASE_MANIFEST_V1_2.csv`, `SHA256SUMS.txt`, and
-`CPO_CODE_RELEASE_SHA256_V1_2.txt` are regenerated for the current IJMI metadata
-candidate. Their legacy filenames are retained for validator compatibility;
-they do not mean that the historical V1.2 audit or v1.0.0 tag was rerun or changed.
-Both checksum lists are identical and cover every payload file except the two
-checksum lists. The manifest omits itself and the checksum lists to avoid
-circular hashing; its own hash is included in both checksum lists.
-Use the unchanged v1.0.0 tag to retrieve the historical checksum records.
-The local candidate passed checksum and metadata preflight; public-main byte
-identity must still be checked after upload. This is not a new model run or
-certification of the whole manuscript submission. Prior draft QA is historical.
+`CPO_CODE_RELEASE_SHA256_V1_2.txt` retain the records generated for the earlier
+publication-metadata candidate. Their legacy filenames are retained for validator
+compatibility. Subsequent README-only publication-metadata updates are not
+represented in those historical checksum records; they do not rerun or change
+the historical V1.2 audit or the v1.0.0 tag. Use the unchanged v1.0.0 tag for the
+frozen public code snapshot and its checksum records. This README update changes
+publication metadata only; it does not constitute a new model run, manuscript
+acceptance, or certification of the whole manuscript submission.
 
 ## Code availability
 
